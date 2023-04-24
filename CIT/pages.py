@@ -81,10 +81,14 @@ def contact():
                 pc.text("Join us on Sunday's at 10:00 AM at:"),
                 pc.text("3537 N. Craycroft Rd."),
                 pc.text("Tucson, AZ 85718", padding_down="50px"),
-                pc.text("phone number"),
-                pc.text("mailing address"),
-                pc.text("feel free to send us an email at info@churchintucson.org or send us a message below:"),
-                width="40%",
+                width="60%",
+                padding_down="40px",
+            ),
+            pc.box(
+                pc.text("Phone: 520-749-2460"),
+                pc.text("Email: info@churchintucson.org"),
+                width="60%",
+                padding_down="40px",
             ),
             pc.text("Name:"),
             pc.input(
