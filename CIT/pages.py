@@ -1,7 +1,8 @@
 import pynecone as pc
 from assets.website_text import * 
 from CIT.components.header_footer import header, footer
-from CIT.message_sender import MessageSender
+from CIT.components.contact_form import contact_form
+# from CIT.components.message_sender import MessageSender
 from CIT import styles
 
 
@@ -77,46 +78,25 @@ def contact():
         header,
         pc.heading("Contact Us", padding_top="90px", padding_bottom="40px"),
         pc.vstack(
-            pc.box(
-                pc.text("Join us on Sunday's at 10:00 AM at:"),
-                pc.text("3537 N. Craycroft Rd."),
-                pc.text("Tucson, AZ 85718", padding_down="50px"),
-                width="60%",
-                padding_down="40px",
-            ),
-            pc.box(
-                pc.text("Phone: 520-749-2460"),
-                pc.text("Email: info@churchintucson.org"),
-                width="60%",
-                padding_down="40px",
-            ),
-            pc.text("Name:"),
-            pc.input(
-                placeholder="Your name...",
-                is_required=True,
-                # on_blur=InputState.set_text,
-            ),
-            pc.text("Email:"),
-            pc.input(
-                placeholder="Your email...",
-                is_required=True,
-                # on_blur=InputState.set_text,
-            ),
-            pc.text("Message:"),
-            pc.text_area(
-                placeholder="Type here...",
-                is_required=True,
-                # on_blur=TextareaState.set_text, 
-            ),
-            pc.hstack(
-                pc.button("Submit"),
-                pc.button(
-                    "Clear",
-                    on_click=MessageSender.clear_message,
-                    ),
-            ),
-            width="60%",
-            padding_bottom="75px",
+            pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE),
+                pc.unordered_list(
+                    pc.list_item(pc.text("""Every Sunday at 10 AM we gather for 
+                    the Lord's Table and mutual fellowship 
+                    from the Bible at 3537 N. Craycroft Rd. Tucson, AZ 85718.""")),
+                    pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather in groups 
+                    to pray for the Lord’s interests on the earth.""")),
+                    pc.list_item(pc.text("""Most other evenings we gather in various homes 
+                    for small group Bible studies and fellowship.""")),
+                ),
+            pc.heading("Contact Us", font_size=styles.H3_FONT_SIZE),
+                pc.unordered_list(
+                    pc.list_item(pc.link(pc.text("info@churchintucson.org"), href="mailto: info@churchintucson.org", \
+                        color="rgb(107,99,246)")),
+                    pc.list_item(pc.text("520-749-2460")),
+                    pc.list_item(pc.text("Our mailing address is 8255 E Rockgate Rd Tucson, AZ 85750")),
+                ),
+            contact_form,
+            width="50%",
         ),
         footer,
     )
