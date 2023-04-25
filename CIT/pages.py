@@ -92,7 +92,7 @@ def contact():
                 pc.unordered_list(
                     pc.list_item(pc.link(pc.text("info@churchintucson.org"), href="mailto: info@churchintucson.org", \
                         color="rgb(107,99,246)")),
-                    pc.list_item(pc.text("520-749-2460")),
+                    pc.list_item(pc.link(pc.text("520-749-2460"), href="tel: 5207492460", color="rgb(107,99,246)")),
                     pc.list_item(pc.text("Our mailing address is 8255 E Rockgate Rd Tucson, AZ 85750")),
                 ),
             contact_form,
