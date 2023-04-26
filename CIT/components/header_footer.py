@@ -24,6 +24,11 @@ header = pc.box(
 		padding_right="15px"
 	),
 	pc.link(
+		pc.text("Testimonies", color="#696969", as_="b"),
+		href="/testimonies",
+		padding_right="15px"
+	),
+	pc.link(
 		pc.text("Give", color="#696969", as_="b"),
 		href="/give",
 		padding_right="15px"

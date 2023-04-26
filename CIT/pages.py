@@ -116,6 +116,15 @@ def resources():
     )
 
 
+def testimonies():
+    return pc.vstack(
+        header,
+        pc.heading("Testimonies", padding_top="90px", padding_bottom="40px"),
+        footer,
+
+    )
+
+
 def give():
     return pc.vstack(
         header,
