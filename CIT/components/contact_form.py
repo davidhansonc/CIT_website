@@ -24,7 +24,6 @@ contact_form = pc.vstack(
 			pc.text("Message:"),
 			pc.text_area(
 				placeholder="Type here...",
-				is_required=True,
 				on_blur=TextareaState.set_text, 
 			),
 			width="100%",

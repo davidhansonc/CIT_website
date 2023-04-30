@@ -95,8 +95,8 @@ def contact():
                     pc.list_item(pc.link(pc.text("520-749-2460"), href="tel: 5207492460", color="rgb(107,99,246)")),
                     pc.list_item(pc.text("Our mailing address is 8255 E Rockgate Rd Tucson, AZ 85750")),
                 ),
-            # contact_form,
-            width="40%",
+            contact_form,
+            width="50%",
         ),
         footer,
     )
@@ -106,111 +106,35 @@ def resources():
     return pc.vstack(
         header,
         pc.heading("Resources", padding_top="90px", padding_bottom="40px"),
-        pc.unordered_list(
-            pc.list_item(
-                pc.link(
-                    pc.text("Living Stream Ministry", as_="b"),
-                    href="https://www.lsm.org",
-                    color="rgb(107,99,246)",
-                    is_external=True,
-                ),
-                padding_bottom="15px",
-            ),
-            pc.list_item(
-                pc.link(
-                    pc.text("LSM Online Publications", as_="b"),
-                    href="https://www.ministrybooks.org/",
-                    color="rgb(107,99,246)",
-                    is_external=True,
-                ),
-                padding_bottom="15px",
-            ),
-            pc.list_item(
-                pc.link(
-                    pc.text("LSM Webcast", as_="b"),
-                    href="https://www.lsmwebcast.com/",
-                    color="rgb(107,99,246)",
-                    is_external=True,
-                ),
-                padding_bottom="15px",
-            ),
-            pc.list_item(
-                pc.link(
-                    pc.text("LSM Bookstore", as_="b"),
-                    href="https://www.livingstream.com/en/",
-                    color="rgb(107,99,246)",
-                    is_external=True,
-                ),
-                padding_bottom="15px",
-            ),
-            pc.list_item(
-                pc.link(
-                    pc.text("Hymnal.net", as_="b"),
-                    href="https://www.hymnal.net/en/home",
-                    color="rgb(107,99,246)",
-                    is_external=True,
-                ),
-                padding_bottom="15px",
-            ),
-            pc.list_item(
-                pc.link(
-                    pc.text("Shepherding Words", as_="b"),
-                    href="https://shepherdingwords.com/",
-                    color="rgb(107,99,246)",
-                    is_external=True,
-                ),
-                padding_bottom="15px",
-            ),
-            pc.list_item(
-                pc.link(
-                    pc.text("Affirmation & Critique", as_="b"),
-                    href="https://www.affcrit.com/",
-                    color="rgb(107,99,246)",
-                    is_external=True,
-                ),
-                padding_bottom="15px",
-            ),
+        pc.link(
+            pc.text("Living Stream Ministry", as_="b"),
+            href="https://www.lsm.org",
+            is_external=True,
         ),
         footer,
 
     )
 
 
-"""
 def testimonies():
     return pc.vstack(
         header,
         pc.heading("Testimonies", padding_top="90px", padding_bottom="40px"),
         footer,
-
     )
-"""
 
 
 def give():
     return pc.vstack(
         header,
         pc.heading("Give", padding_top="90px", padding_bottom="40px"),
-        pc.heading("Local Needs", font_size=styles.H3_FONT_SIZE),
-        pc.unordered_list(
-            pc.list_item(pc.text('''Please send any cash or checks to our mailing address: 
-            8255 E Rockgate Rd Tucson, AZ 85750. Checks should be made out to "The Church in Tucson".''')),
-            pc.list_item(pc.text("There is also a donation box in our meeting hall.")),
-            padding_bottom="20px",
-            width="40%",
-        ),
-        pc.heading("The Work of the Ministry", font_size=styles.H3_FONT_SIZE),
-        pc.unordered_list(
-            pc.list_item(pc.link(pc.text("Living Stream Ministry"), href="https://www.lsm.org/donations/index.php", \
-                color="rgb(107,99,246)", is_external=True)),
-            pc.list_item(pc.link(pc.text("The Lord's Move to Europe"), href="https://www.lordsmove.org/", \
-                color="rgb(107,99,246)", is_external=True)),
+        pc.box(
+            pc.text("Coming soon...", font_size="1.25em"),
         ),
         footer,
     )
 
 
-'''
 def media():
     return pc.vstack(
         header,
@@ -222,7 +146,6 @@ def media():
         ),
         footer,
     )
-'''
 
 
 def ministry_portion():
