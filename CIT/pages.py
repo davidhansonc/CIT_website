@@ -93,7 +93,7 @@ def contact():
                     pc.list_item(pc.link(pc.text("info@churchintucson.org"), href="mailto: info@churchintucson.org", \
                         color="rgb(107,99,246)")),
                     pc.list_item(pc.link(pc.text("520-548-7514"), href="tel: 5205487514", color="rgb(107,99,246)")),
-                    pc.list_item(pc.text("Our mailing address is 8255 E Rockgate Rd Tucson, AZ 85750")),
+                    pc.list_item(pc.text("Our mailing address is 6091 E Grant Rd, Tucson, AZ 85712")),
                 ),
             # contact_form,
             width="40%",
@@ -194,7 +194,7 @@ def give():
         pc.heading("Local Needs", font_size=styles.H3_FONT_SIZE),
         pc.unordered_list(
             pc.list_item(pc.text('''Please send any cash or checks to our mailing address: 
-            8255 E Rockgate Rd Tucson, AZ 85750. Checks should be made out to "The Church in Tucson".''')),
+            6091 E Grant Rd Tucson, AZ 85712. Checks should be made out to "The Church in Tucson".''')),
             pc.list_item(pc.text("There is also a donation box in our meeting hall.")),
             padding_bottom="20px",
             width="40%",
