@@ -1,6 +1,38 @@
 import pynecone as pc
 
 
+faith_link = pc.link(
+				pc.text("Our Faith", color="#696969", as_="b"),
+				href="/faith",
+				padding_right="15px"
+			)
+contact_link = pc.link(
+				pc.text("Contact", color="#696969", as_="b"),
+				href="/contact",
+				padding_right="15px"
+			)
+resources_link = pc.link(
+				pc.text("Resources", color="#696969", as_="b"),
+				href="/resources",
+				padding_right="15px"
+			)
+giving_link = pc.link(
+				pc.text("Give", color="#696969", as_="b"),
+				href="/give",
+				padding_right="15px"
+			)
+testimony_link = pc.link(
+			pc.text("Testimonies", color="#696969", as_="b"),
+			href="/testimonies",
+			padding_right="15px"
+		)
+media_link = pc.link(
+			pc.text("Media", color="#696969", as_="b"),
+			href="/media",
+			padding_right="15px"
+		)
+
+
 header = pc.box(
 	pc.hstack(
 		pc.link(
@@ -8,35 +40,23 @@ header = pc.box(
 			href="/",
 		),
 		pc.spacer(),
-		pc.link(
-			pc.text("Our Faith", color="#696969", as_="b"),
-			href="/faith",
-			padding_right="15px"
+		pc.desktop_only(
+			faith_link,
+			contact_link,
+			resources_link,
+			giving_link,
 		),
-		pc.link(
-			pc.text("Contact", color="#696969", as_="b"),
-			href="/contact",
-			padding_right="15px"
-		),
-		pc.link(
-			pc.text("Resources", color="#696969", as_="b"),
-			href="/resources",
-			padding_right="15px"
-		),
-		pc.link(
-			pc.text("Testimonies", color="#696969", as_="b"),
-			# href="/testimonies",
-			padding_right="15px"
-		),
-		# pc.link(
-		# 	pc.text("Media", color="#696969", as_="b"),
-		# 	href="/media",
-		# 	padding_right="15px"
-		# ),
-		pc.link(
-			pc.text("Give", color="#696969", as_="b"),
-			href="/give",
-			padding_right="15px"
+		pc.mobile_only(
+			pc.menu(
+				pc.menu_button(pc.text("Menu", color="#696969", as_="u"), padding_right="15px"),
+				pc.menu_list(
+					pc.menu_item(faith_link),
+					pc.menu_item(resources_link),
+					pc.menu_item(giving_link),
+					pc.menu_divider(),
+					pc.menu_item(contact_link),
+				),
+			),
 		),
 	),
 	bg="white",
