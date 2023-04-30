@@ -1,1 +1,1 @@
-web: gunicorn church-in-tucson.wsgi
+web: gunicorn CIT.wsgi
