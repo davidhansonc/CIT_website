@@ -1,1 +1,1 @@
-web: gunicorn CIT.wsgi
+web: python main.py
