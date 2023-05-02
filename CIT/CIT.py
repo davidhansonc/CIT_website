@@ -14,7 +14,7 @@ class State(pc.State):
 
 
 # Create the app.
-app = pc.App(state=State, style=style, title="church-in-Tucson")
+app = pc.App(state=State, style=style)
 app.add_page(home, route="/", title="The Church in Tucson")
 app.add_page(faith, route="/faith", title="Our Faith")
 app.add_page(resources, route="/resources", title="Resources")
