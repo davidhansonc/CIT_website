@@ -14,12 +14,12 @@ class State(pc.State):
 
 
 # Create the app.
-app = pc.App(state=State, style=style, title="church in Tucson")
-app.add_page(home, route="/")
-app.add_page(faith, route="/faith")
-app.add_page(resources, route="/resources")
-app.add_page(contact, route="/contact")
+app = pc.App(state=State, style=style, title="church-in-Tucson")
+app.add_page(home, route="/", title="The Church in Tucson")
+app.add_page(faith, route="/faith", title="Our Faith")
+app.add_page(resources, route="/resources", title="Resources")
+app.add_page(contact, route="/contact", title="Contact Us")
 # app.add_page(testimonies, route="/testimonies")
 # app.add_page(media, route="/media")
-app.add_page(give, route="/give")
+app.add_page(give, route="/give", title="Give")
 app.compile()
