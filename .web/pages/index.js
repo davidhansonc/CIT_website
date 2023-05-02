@@ -85,10 +85,18 @@ As such, it’s an inclusive title, not an exclusive one.
 We gather together simply as believers of the Lord in the city of Tucson, and we receive 
 as our brothers and sisters all who believe in Jesus Christ. 
 Likewise, we warmly welcome guests and visitors who are not Christians.`}</Text></Box></Box>
-<Box sx={{"display": ["block", "block", "block", "none"]}}><Box><Image src="/AZ_desert_scape3.png"
+<Box sx={{"display": ["none", "block", "block", "none"]}}><Box><Image src="/AZ_desert_scape3.png"
 sx={{"width": "100%", "height": "auto"}}/></Box>
 <Heading sx={{"fontSize": "3em", "padding": "15px", "fontWeight": "500"}}>{`Welcome.`}</Heading>
-<Box sx={{"paddingLeft": "75px", "paddingRight": "75px", "width": "100%"}}><Text sx={{"fontSize": "1.25em", "fontFamily": "Inter", "fontWeight": "200"}}>{`The church in Tucson isn’t our name – it’s our description. 
+<Box sx={{"paddingLeft": "50px", "paddingRight": "50px", "width": "100%"}}><Text sx={{"fontSize": "1.25em", "fontFamily": "Inter", "fontWeight": "200"}}>{`The church in Tucson isn’t our name – it’s our description. 
+As such, it’s an inclusive title, not an exclusive one. 
+We gather together simply as believers of the Lord in the city of Tucson, and we receive 
+as our brothers and sisters all who believe in Jesus Christ. 
+Likewise, we warmly welcome guests and visitors who are not Christians.`}</Text></Box></Box>
+<Box sx={{"display": ["block", "none", "none", "none"]}}><Box><Image src="/AZ_desert_scape4.png"
+sx={{"width": "100%", "height": "auto"}}/></Box>
+<Heading sx={{"fontSize": "3em", "padding": "15px", "fontWeight": "500"}}>{`Welcome.`}</Heading>
+<Box sx={{"paddingLeft": "25px", "paddingRight": "25px", "width": "100%"}}><Text sx={{"fontSize": "1.25em", "fontFamily": "Inter", "fontWeight": "200"}}>{`The church in Tucson isn’t our name – it’s our description. 
 As such, it’s an inclusive title, not an exclusive one. 
 We gather together simply as believers of the Lord in the city of Tucson, and we receive 
 as our brothers and sisters all who believe in Jesus Christ. 

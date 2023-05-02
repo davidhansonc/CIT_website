@@ -22,9 +22,21 @@ def home() -> pc.Component:
                 width="100%",
             ),
         ),
-        pc.mobile_and_tablet(
+        pc.tablet_only(
             pc.box(
                 pc.image(src="/AZ_desert_scape3.png", width="100%", height="auto"),
+            ),
+            pc.heading("Welcome.", font_size="3em", padding="15px"),
+            pc.box(
+                pc.text(intro_paragraph, font_size="1.25em"),
+                padding_left="50px",
+                padding_right="50px",
+                width="100%",
+            ),
+        ),
+        pc.mobile_only(
+            pc.box(
+                pc.image(src="/AZ_desert_scape4.png", width="100%", height="auto"),
             ),
             pc.heading("Welcome.", font_size="3em", padding="15px"),
             pc.box(
