@@ -63,7 +63,7 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Resource
 <NextLink href="/give"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</Text></Link></NextLink></Box>
-<Box sx={{"display": ["block", "none", "none", "none"]}}><Menu><MenuButton sx={{"paddingRight": "15px"}}><Text as="u"
+<Box sx={{"display": ["block", "block", "block", "none"]}}><Menu><MenuButton sx={{"paddingRight": "15px"}}><Text as="u"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Menu`}</Text></MenuButton>
 <MenuList><MenuItem><NextLink href="/faith"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
@@ -78,13 +78,21 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</
 <MenuItem><NextLink href="/contact"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`}</Text></Link></NextLink></MenuItem></MenuList></Menu></Box></HStack></Box>
-<Box><Image src="/AZ_desert_scape2.png"
+<Box sx={{"display": ["none", "none", "none", "block"]}}><Box><Image src="/AZ_desert_scape2.png"
 sx={{"width": "100%", "height": "auto"}}/></Box>
-<Box sx={{"paddingTop": "75px", "width": "75%"}}><Text sx={{"fontSize": "1.25em", "fontFamily": "Inter", "fontWeight": "200"}}>{`The church in Tucson isn’t our name – it’s our description. 
+<Box sx={{"paddingTop": "75px", "paddingBottom": "75px", "paddingRight": "150px", "paddingLeft": "150px", "width": "100%"}}><Text sx={{"fontSize": "1.25em", "fontFamily": "Inter", "fontWeight": "200"}}>{`The church in Tucson isn’t our name – it’s our description. 
 As such, it’s an inclusive title, not an exclusive one. 
 We gather together simply as believers of the Lord in the city of Tucson, and we receive 
 as our brothers and sisters all who believe in Jesus Christ. 
-Likewise, we warmly welcome guests and visitors who are not Christians.`}</Text></Box>
+Likewise, we warmly welcome guests and visitors who are not Christians.`}</Text></Box></Box>
+<Box sx={{"display": ["block", "block", "block", "none"]}}><Box><Image src="/AZ_desert_scape3.png"
+sx={{"width": "100%", "height": "auto"}}/></Box>
+<Heading sx={{"fontSize": "3em", "padding": "15px", "fontWeight": "500"}}>{`Welcome.`}</Heading>
+<Box sx={{"paddingLeft": "75px", "paddingRight": "75px", "width": "100%"}}><Text sx={{"fontSize": "1.25em", "fontFamily": "Inter", "fontWeight": "200"}}>{`The church in Tucson isn’t our name – it’s our description. 
+As such, it’s an inclusive title, not an exclusive one. 
+We gather together simply as believers of the Lord in the city of Tucson, and we receive 
+as our brothers and sisters all who believe in Jesus Christ. 
+Likewise, we warmly welcome guests and visitors who are not Christians.`}</Text></Box></Box>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2000, 2003. The Church in Tucson. All Rights Reserved.`}</Box>
 <NextHead><title>{`The Church in Tucson`}</title>
 <meta content="A Pynecone app."

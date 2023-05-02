@@ -63,7 +63,7 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Resource
 <NextLink href="/give"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</Text></Link></NextLink></Box>
-<Box sx={{"display": ["block", "none", "none", "none"]}}><Menu><MenuButton sx={{"paddingRight": "15px"}}><Text as="u"
+<Box sx={{"display": ["block", "block", "block", "none"]}}><Menu><MenuButton sx={{"paddingRight": "15px"}}><Text as="u"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Menu`}</Text></MenuButton>
 <MenuList><MenuItem><NextLink href="/faith"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"

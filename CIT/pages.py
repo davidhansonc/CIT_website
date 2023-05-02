@@ -13,17 +13,26 @@ def home() -> pc.Component:
             pc.box(
                 pc.image(src="/AZ_desert_scape2.png", width="100%", height="auto"),
             ),
-        ),
-        pc.mobile_only(
             pc.box(
-                pc.image(src="/AZ_desert_scapes.png", width="100%", height="auto"),
-            )
-            pc.heading("Welcome."),
+                pc.text(intro_paragraph, font_size="1.25em"),
+                padding_top="75px",
+                padding_bottom="75px",
+                padding_right="150px",
+                padding_left="150px",
+                width="100%",
+            ),
         ),
-        pc.box(
-            pc.text(intro_paragraph, font_size="1.25em"),
-            padding_top="75px",
-            width="75%",
+        pc.mobile_and_tablet(
+            pc.box(
+                pc.image(src="/AZ_desert_scape3.png", width="100%", height="auto"),
+            ),
+            pc.heading("Welcome.", font_size="3em", padding="15px"),
+            pc.box(
+                pc.text(intro_paragraph, font_size="1.25em"),
+                padding_left="75px",
+                padding_right="75px",
+                width="100%",
+            ),
         ),
         footer,
     )

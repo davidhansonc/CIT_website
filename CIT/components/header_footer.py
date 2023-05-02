@@ -46,7 +46,7 @@ header = pc.box(
 			resources_link,
 			giving_link,
 		),
-		pc.mobile_only(
+		pc.mobile_and_tablet(
 			pc.menu(
 				pc.menu_button(pc.text("Menu", color="#696969", as_="u"), padding_right="15px"),
 				pc.menu_list(
