@@ -29,8 +29,8 @@ def home() -> pc.Component:
             pc.heading("Welcome.", font_size="3em", padding="15px"),
             pc.box(
                 pc.text(intro_paragraph, font_size="1.25em"),
-                padding_left="75px",
-                padding_right="75px",
+                padding_left="25px",
+                padding_right="25px",
                 width="100%",
             ),
         ),
