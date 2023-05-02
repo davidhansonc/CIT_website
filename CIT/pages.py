@@ -9,8 +9,16 @@ from CIT import styles
 def home() -> pc.Component:
     return pc.vstack(
         header,
-        pc.box(
-            pc.image(src="/AZ_desert_scape2.png", width="100%", height="auto"),
+        pc.desktop_only(
+            pc.box(
+                pc.image(src="/AZ_desert_scape2.png", width="100%", height="auto"),
+            ),
+        ),
+        pc.mobile_only(
+            pc.box(
+                pc.image(src="/AZ_desert_scapes.png", width="100%", height="auto"),
+            )
+            pc.heading("Welcome."),
         ),
         pc.box(
             pc.text(intro_paragraph, font_size="1.25em"),
