@@ -53,50 +53,106 @@ def home() -> pc.Component:
 def faith():
     return pc.vstack(
         header,
-        pc.heading("Our Faith", padding_top="90px", padding_bottom="40px"),
-        pc.heading(intro, font_size=styles.H4_FONT_SIZE),
-        pc.box(
-            pc.heading("The Bible", font_size=styles.H3_FONT_SIZE),
-            pc.unordered_list(
-                pc.list_item(Bible),
-                padding_bottom="15px",
+        pc.desktop_only(
+            pc.vstack(
+                pc.heading("Our Faith", padding_top="90px", padding_bottom="40px"),
+                pc.box(
+                    pc.heading(intro, padding_bottom="15px", font_size=styles.H4_FONT_SIZE),
+                    pc.heading("The Bible", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Bible),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("The Triune God", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Truine_God),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("Jesus Christ", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Jesus_Christ),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("Christ's Crucifixion", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Crucifixion),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("Christ's Resurrection", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Resurrection),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("Christ's Ascension", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Ascension),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("Salvation", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Salvation),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("Christ's Return", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Christ_Return),
+                        padding_bottom="15px",
+                    ),
+                    width="55%",
+                ),
             ),
-            pc.heading("The Triune God", font_size=styles.H3_FONT_SIZE),
-            pc.unordered_list(
-                pc.list_item(Truine_God),
-                padding_bottom="15px",
+        ),
+        pc.mobile_and_tablet(
+            pc.vstack(
+                pc.heading("Our Faith", 
+                    padding_top="90px", 
+                    padding_bottom="40px",
+                ),
+                pc.box(
+                    pc.heading(intro, padding_bottom="15px", font_size=styles.H4_FONT_SIZE),
+                    pc.heading("The Bible", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Bible),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("The Triune God", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Truine_God),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("Jesus Christ", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Jesus_Christ),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("Christ's Crucifixion", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Crucifixion),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("Christ's Resurrection", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Resurrection),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("Christ's Ascension", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Ascension),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("Salvation", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Salvation),
+                        padding_bottom="15px",
+                    ),
+                    pc.heading("Christ's Return", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(Christ_Return),
+                        padding_bottom="15px",
+                    ),
+                    width="75%",
+                ),
             ),
-            pc.heading("Jesus Christ", font_size=styles.H3_FONT_SIZE),
-            pc.unordered_list(
-                pc.list_item(Jesus_Christ),
-                padding_bottom="15px",
-            ),
-            pc.heading("Christ's Crucifixion", font_size=styles.H3_FONT_SIZE),
-            pc.unordered_list(
-                pc.list_item(Crucifixion),
-                padding_bottom="15px",
-            ),
-            pc.heading("Christ's Resurrection", font_size=styles.H3_FONT_SIZE),
-            pc.unordered_list(
-                pc.list_item(Resurrection),
-                padding_bottom="15px",
-            ),
-            pc.heading("Christ's Ascension", font_size=styles.H3_FONT_SIZE),
-            pc.unordered_list(
-                pc.list_item(Ascension),
-                padding_bottom="15px",
-            ),
-            pc.heading("Salvation", font_size=styles.H3_FONT_SIZE),
-            pc.unordered_list(
-                pc.list_item(Salvation),
-                padding_bottom="15px",
-            ),
-            pc.heading("Christ's Return", font_size=styles.H3_FONT_SIZE),
-            pc.unordered_list(
-                pc.list_item(Christ_Return),
-                padding_bottom="15px",
-            ),
-            width="55%",
         ),
         footer,
     )

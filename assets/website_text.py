@@ -1,4 +1,5 @@
 import pynecone as pc
+from CIT import styles
 
 
 intro_paragraph = """The church in Tucson isn’t our name – it’s our description. 
@@ -34,5 +35,46 @@ hall_link = pc.link(
     color="rgb(107,99,246)",
 )
 
-
-test="hello"
+faith = pc.box(
+        pc.heading("The Bible", font_size=styles.H3_FONT_SIZE),
+        pc.unordered_list(
+            pc.list_item(Bible),
+            padding_bottom="15px",
+        ),
+        pc.heading("The Triune God", font_size=styles.H3_FONT_SIZE),
+        pc.unordered_list(
+            pc.list_item(Truine_God),
+            padding_bottom="15px",
+        ),
+        pc.heading("Jesus Christ", font_size=styles.H3_FONT_SIZE),
+        pc.unordered_list(
+            pc.list_item(Jesus_Christ),
+            padding_bottom="15px",
+        ),
+        pc.heading("Christ's Crucifixion", font_size=styles.H3_FONT_SIZE),
+        pc.unordered_list(
+            pc.list_item(Crucifixion),
+            padding_bottom="15px",
+        ),
+        pc.heading("Christ's Resurrection", font_size=styles.H3_FONT_SIZE),
+        pc.unordered_list(
+            pc.list_item(Resurrection),
+            padding_bottom="15px",
+        ),
+        pc.heading("Christ's Ascension", font_size=styles.H3_FONT_SIZE),
+        pc.unordered_list(
+            pc.list_item(Ascension),
+            padding_bottom="15px",
+        ),
+        pc.heading("Salvation", font_size=styles.H3_FONT_SIZE),
+        pc.unordered_list(
+            pc.list_item(Salvation),
+            padding_bottom="15px",
+        ),
+        pc.heading("Christ's Return", font_size=styles.H3_FONT_SIZE),
+        pc.unordered_list(
+            pc.list_item(Christ_Return),
+            padding_bottom="15px",
+        ),
+        width="100%",
+    )

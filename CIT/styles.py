@@ -2,6 +2,7 @@
 
 import pynecone as pc
 
+
 style = {
     pc.Text: {
         "font_family": "Inter",
