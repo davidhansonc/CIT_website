@@ -97,7 +97,7 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`
 <Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`Christ's Return`}</Heading>
 <UnorderedList sx={{"paddingBottom": "15px"}}><ListItem>{`Christ is coming again to receive His believers to Himself (1 Thes. 2:19)`}</ListItem></UnorderedList></Box></VStack></Box>
 <Box sx={{"display": ["block", "block", "block", "none"]}}><VStack><Heading sx={{"paddingTop": "90px", "paddingBottom": "40px", "fontWeight": "500"}}>{`Our Faith`}</Heading>
-<Box sx={{"width": "75%"}}><Heading sx={{"paddingBottom": "15px", "fontSize": "1.1em", "fontWeight": "500"}}>{`We hold the faith which is common to all the believers (Titus 1:4, Jude 3):`}</Heading>
+<Box sx={{"width": "85%"}}><Heading sx={{"paddingBottom": "15px", "fontSize": "1.1em", "fontWeight": "500"}}>{`We hold the faith which is common to all the believers (Titus 1:4, Jude 3):`}</Heading>
 <Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`The Bible`}</Heading>
 <UnorderedList sx={{"paddingBottom": "15px"}}><ListItem>{`The Bible is the complete divine revelation inspired word by word by God through the Holy Spirit (2 Pet. 1:21, 2 Tim. 3:16)`}</ListItem></UnorderedList>
 <Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`The Triune God`}</Heading>

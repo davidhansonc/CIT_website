@@ -79,8 +79,8 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`}</Text></Link></NextLink></MenuItem></MenuList></Menu></Box></HStack></Box>
 <Heading sx={{"paddingTop": "90px", "paddingBottom": "40px", "fontWeight": "500"}}>{`Contact Us`}</Heading>
-<VStack sx={{"width": "40%"}}><Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`Meeting Information`}</Heading>
-<UnorderedList><ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Every Sunday at 10 AM we gather for 
+<Box sx={{"display": ["none", "none", "none", "block"]}}><Box sx={{"width": "60%"}}><Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`Meeting Information`}</Heading>
+<UnorderedList sx={{"paddingBottom": "10px"}}><ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Every Sunday at 10 AM we gather for 
                     the Lord's Table and mutual fellowship 
                     from the Bible at 3537 N. Craycroft Rd. Tucson, AZ 85718.`}</Text></ListItem>
 <ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Every Tuesday at 7:30 PM we gather in groups 
@@ -92,7 +92,21 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`info@churchintucson.org`}</Text></Link></NextLink></ListItem>
 <ListItem><NextLink href="tel: 5205487514"
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`520-548-7514`}</Text></Link></NextLink></ListItem>
-<ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Our mailing address is 6091 E Grant Rd, Tucson, AZ 85712`}</Text></ListItem></UnorderedList></VStack>
+<ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Our mailing address is 6091 E Grant Rd, Tucson, AZ 85712`}</Text></ListItem></UnorderedList></Box></Box>
+<Box sx={{"display": ["block", "block", "block", "none"]}}><Box sx={{"width": "75%"}}><VStack><Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`Meeting Information`}</Heading>
+<UnorderedList sx={{"paddingBottom": "10px"}}><ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Every Sunday at 10 AM we gather for 
+                            the Lord's Table and mutual fellowship 
+                            from the Bible at 3537 N. Craycroft Rd. Tucson, AZ 85718.`}</Text></ListItem>
+<ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Every Tuesday at 7:30 PM we gather in groups 
+                            to pray for the Lord’s interests on the earth.`}</Text></ListItem>
+<ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Most other evenings we gather in various homes 
+                            for small group Bible studies and fellowship.`}</Text></ListItem></UnorderedList>
+<Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`Contact Us`}</Heading>
+<UnorderedList><ListItem><NextLink href="mailto: info@churchintucson.org"
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`info@churchintucson.org`}</Text></Link></NextLink></ListItem>
+<ListItem><NextLink href="tel: 5205487514"
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`520-548-7514`}</Text></Link></NextLink></ListItem>
+<ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Our mailing address is 6091 E Grant Rd, Tucson, AZ 85712`}</Text></ListItem></UnorderedList></VStack></Box></Box>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2000, 2003. The Church in Tucson. All Rights Reserved.`}</Box>
 <NextHead><title>{`Contact Us`}</title>
 <meta content="A Pynecone app."
