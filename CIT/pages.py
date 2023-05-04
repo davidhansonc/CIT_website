@@ -161,55 +161,60 @@ def faith():
 def contact():
     return pc.vstack(
         header,
-        pc.heading("Contact Us", padding_top="90px", padding_bottom="40px"),
         pc.desktop_only(
-            pc.box(
-                pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE),
-                pc.unordered_list(
-                    pc.list_item(pc.text("""Every Sunday at 10 AM we gather for 
-                    the Lord's Table and mutual fellowship 
-                    from the Bible at 3537 N. Craycroft Rd. Tucson, AZ 85718.""")),
-                    pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather in groups 
-                    to pray for the Lord’s interests on the earth.""")),
-                    pc.list_item(pc.text("""Most other evenings we gather in various homes 
-                    for small group Bible studies and fellowship.""")),
-                    padding_bottom="10px",
+            pc.vstack(
+                pc.heading("Contact Us", padding_top="90px", padding_bottom="40px"),
+                pc.box(
+                    pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(pc.text("""Every Sunday at 10 AM we gather for 
+                        the Lord's Table and mutual fellowship 
+                        from the Bible at 3537 N. Craycroft Rd. Tucson, AZ 85718.""")),
+                        pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather in groups 
+                        to pray for the Lord’s interests on the earth.""")),
+                        pc.list_item(pc.text("""Most other evenings we gather in various homes 
+                        for small group Bible studies and fellowship.""")),
+                        padding_bottom="10px",
+                    ),
+                    pc.heading("Contact Us", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(pc.link(pc.text("info@churchintucson.org"), href="mailto: info@churchintucson.org", \
+                            color="rgb(107,99,246)")),
+                        pc.list_item(pc.link(pc.text("520-548-7514"), href="tel: 5205487514", color="rgb(107,99,246)")),
+                        pc.list_item(pc.text("Our mailing address is 6091 E Grant Rd, Tucson, AZ 85712")),
+                    ),
+                    width="60%",
                 ),
-                pc.heading("Contact Us", font_size=styles.H3_FONT_SIZE),
-                pc.unordered_list(
-                    pc.list_item(pc.link(pc.text("info@churchintucson.org"), href="mailto: info@churchintucson.org", \
-                        color="rgb(107,99,246)")),
-                    pc.list_item(pc.link(pc.text("520-548-7514"), href="tel: 5205487514", color="rgb(107,99,246)")),
-                    pc.list_item(pc.text("Our mailing address is 6091 E Grant Rd, Tucson, AZ 85712")),
-                ),
-                # contact_form,
-            width="60%",
             ),
         ),
         pc.mobile_and_tablet(
-            pc.box(
-                pc.vstack(
-                    pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE),
-                        pc.unordered_list(
-                            pc.list_item(pc.text("""Every Sunday at 10 AM we gather for 
-                            the Lord's Table and mutual fellowship 
-                            from the Bible at 3537 N. Craycroft Rd. Tucson, AZ 85718.""")),
-                            pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather in groups 
-                            to pray for the Lord’s interests on the earth.""")),
-                            pc.list_item(pc.text("""Most other evenings we gather in various homes 
-                            for small group Bible studies and fellowship.""")),
-                            padding_bottom="10px",
-                        ),
-                    pc.heading("Contact Us", font_size=styles.H3_FONT_SIZE),
-                        pc.unordered_list(
-                            pc.list_item(pc.link(pc.text("info@churchintucson.org"), href="mailto: info@churchintucson.org", \
-                                color="rgb(107,99,246)")),
-                            pc.list_item(pc.link(pc.text("520-548-7514"), href="tel: 5205487514", color="rgb(107,99,246)")),
-                            pc.list_item(pc.text("Our mailing address is 6091 E Grant Rd, Tucson, AZ 85712")),
-                        ),
-                    # contact_form,
+            pc.vstack(
+                pc.heading("Contact Us", 
+                    padding_top="90px", 
+                    padding_bottom="40px",
                 ),
-                width="75%",
+                pc.box(
+                    pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(pc.text("""Every Sunday at 10 AM we gather for 
+                        the Lord's Table and mutual fellowship 
+                        from the Bible at 3537 N. Craycroft Rd. Tucson, AZ 85718.""")),
+                        pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather in groups 
+                        to pray for the Lord’s interests on the earth.""")),
+                        pc.list_item(pc.text("""Most other evenings we gather in various homes 
+                        for small group Bible studies and fellowship.""")),
+                        padding_bottom="10px",
+                    ),
+                    pc.heading("Contact Us", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(pc.link(pc.text("info@churchintucson.org"), href="mailto: info@churchintucson.org", \
+                            color="rgb(107,99,246)")),
+                        pc.list_item(pc.link(pc.text("520-548-7514"), href="tel: 5205487514", color="rgb(107,99,246)")),
+                        pc.list_item(pc.text("Our mailing address is 6091 E Grant Rd, Tucson, AZ 85712")),
+                    ),
+                    # contact_form,
+                width="85%",
+                ),
             ),
         ),
         footer,
