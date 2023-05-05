@@ -42,8 +42,8 @@ header = pc.box(
 		pc.spacer(),
 		pc.desktop_only(
 			faith_link,
-			contact_link,
 			resources_link,
+			contact_link,
 			giving_link,
 		),
 		pc.mobile_and_tablet(

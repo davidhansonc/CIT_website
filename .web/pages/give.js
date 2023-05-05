@@ -54,12 +54,12 @@ passHref={true}><Link><Heading sx={{"padding": "10px", "fontWeight": "500"}}>{`T
 <Box sx={{"display": ["none", "none", "none", "block"]}}><NextLink href="/faith"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Our Faith`}</Text></Link></NextLink>
-<NextLink href="/contact"
-passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
-sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`}</Text></Link></NextLink>
 <NextLink href="/resources"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Resources`}</Text></Link></NextLink>
+<NextLink href="/contact"
+passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
+sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`}</Text></Link></NextLink>
 <NextLink href="/give"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</Text></Link></NextLink></Box>

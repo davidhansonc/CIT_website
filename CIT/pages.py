@@ -165,6 +165,13 @@ def contact():
             pc.vstack(
                 pc.heading("Contact Us", padding_top="90px", padding_bottom="40px"),
                 pc.box(
+                    element="iframe",
+                    src=map_url,
+                    width="600px",
+                    height="450px",
+                    padding_bottom="15px",
+                ),
+                pc.box(
                     pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE),
                     pc.unordered_list(
                         pc.list_item(pc.text("""Every Sunday at 10 AM we gather for 
@@ -188,7 +195,7 @@ def contact():
                         pc.list_item(pc.text(f"Our mailing address is 6091 E Grant Rd, Tucson, AZ 85712")
                         ),
                     ),
-                    width="60%",
+                    width="75%",
                 ),
             ),
         ),
@@ -197,6 +204,12 @@ def contact():
                 pc.heading("Contact Us", 
                     padding_top="90px", 
                     padding_bottom="40px",
+                ),
+                pc.box(
+                    element="iframe",
+                    src=map_url,
+                    width="85%",
+                    padding_bottom="15px",
                 ),
                 pc.box(
                     pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE),
