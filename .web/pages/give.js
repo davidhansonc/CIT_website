@@ -85,11 +85,9 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`
 <ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`There is also a donation box in our meeting hall.`}</Text></ListItem></UnorderedList>
 <Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`The Work of the Ministry`}</Heading>
 <UnorderedList><ListItem><NextLink href="https://www.lsm.org/donations/index.php"
-passHref={true}><Link isExternal={true}
-sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Living Stream Ministry`}</Text></Link></NextLink></ListItem>
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Living Stream Ministry`}</Text></Link></NextLink></ListItem>
 <ListItem><NextLink href="https://www.lordsmove.org/"
-passHref={true}><Link isExternal={true}
-sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`The Lord's Move to Europe`}</Text></Link></NextLink></ListItem></UnorderedList></Box></VStack></Box>
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`The Lord's Move to Europe`}</Text></Link></NextLink></ListItem></UnorderedList></Box></VStack></Box>
 <Box sx={{"display": ["block", "block", "block", "none"]}}><VStack><Heading sx={{"paddingTop": "90px", "paddingBottom": "40px", "fontWeight": "500"}}>{`Give`}</Heading>
 <Box sx={{"width": "85%"}}><Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`Local Needs`}</Heading>
 <UnorderedList sx={{"paddingBottom": "20px"}}><ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Please send any cash or checks to our mailing address: 
@@ -97,11 +95,9 @@ sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight"
 <ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`There is also a donation box in our meeting hall.`}</Text></ListItem></UnorderedList>
 <Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`The Work of the Ministry`}</Heading>
 <UnorderedList><ListItem><NextLink href="https://www.lsm.org/donations/index.php"
-passHref={true}><Link isExternal={true}
-sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Living Stream Ministry`}</Text></Link></NextLink></ListItem>
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Living Stream Ministry`}</Text></Link></NextLink></ListItem>
 <ListItem><NextLink href="https://www.lordsmove.org/"
-passHref={true}><Link isExternal={true}
-sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`The Lord's Move to Europe`}</Text></Link></NextLink></ListItem></UnorderedList></Box></VStack></Box>
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`The Lord's Move to Europe`}</Text></Link></NextLink></ListItem></UnorderedList></Box></VStack></Box>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2000, 2003. The Church in Tucson. All Rights Reserved.`}</Box>
 <NextHead><title>{`Give`}</title>
 <meta content="A Pynecone app."

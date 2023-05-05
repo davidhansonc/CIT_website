@@ -80,32 +80,25 @@ passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`}</Text></Link></NextLink></MenuItem></MenuList></Menu></Box></HStack></Box>
 <Heading sx={{"paddingTop": "90px", "paddingBottom": "40px", "fontWeight": "500"}}>{`Resources`}</Heading>
 <UnorderedList><ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.lsm.org"
-passHref={true}><Link isExternal={true}
-sx={{"color": "rgb(107,99,246)"}}><Text as="b"
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Living Stream Ministry`}</Text></Link></NextLink></ListItem>
 <ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.ministrybooks.org/"
-passHref={true}><Link isExternal={true}
-sx={{"color": "rgb(107,99,246)"}}><Text as="b"
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`LSM Online Publications`}</Text></Link></NextLink></ListItem>
 <ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.lsmwebcast.com/"
-passHref={true}><Link isExternal={true}
-sx={{"color": "rgb(107,99,246)"}}><Text as="b"
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`LSM Webcast`}</Text></Link></NextLink></ListItem>
 <ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.livingstream.com/en/"
-passHref={true}><Link isExternal={true}
-sx={{"color": "rgb(107,99,246)"}}><Text as="b"
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`LSM Bookstore`}</Text></Link></NextLink></ListItem>
 <ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.hymnal.net/en/home"
-passHref={true}><Link isExternal={true}
-sx={{"color": "rgb(107,99,246)"}}><Text as="b"
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Hymnal.net`}</Text></Link></NextLink></ListItem>
 <ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://shepherdingwords.com/"
-passHref={true}><Link isExternal={true}
-sx={{"color": "rgb(107,99,246)"}}><Text as="b"
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Shepherding Words`}</Text></Link></NextLink></ListItem>
 <ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.affcrit.com/"
-passHref={true}><Link isExternal={true}
-sx={{"color": "rgb(107,99,246)"}}><Text as="b"
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Affirmation & Critique`}</Text></Link></NextLink></ListItem></UnorderedList>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2000, 2003. The Church in Tucson. All Rights Reserved.`}</Box>
 <NextHead><title>{`Resources`}</title>
