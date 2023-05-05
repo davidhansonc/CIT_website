@@ -172,6 +172,7 @@ def contact():
                         from the Bible at:""")),
                         pc.unordered_list(
                             pc.list_item(address_link),
+                            list_style_type="none",
                         ),
                         pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather in groups 
                         to pray for the Lord’s interests on the earth.""")),
@@ -206,6 +207,7 @@ def contact():
                        pc.list_item(address_link),
                         pc.unordered_list(
                             pc.list_item(address_link),
+                            list_style_type="none",
                         ),
                         pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather in groups 
                         to pray for the Lord’s interests on the earth.""")),
