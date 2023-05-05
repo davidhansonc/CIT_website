@@ -169,7 +169,10 @@ def contact():
                     pc.unordered_list(
                         pc.list_item(pc.text("""Every Sunday at 10 AM we gather for 
                         the Lord's Table and mutual fellowship 
-                        from the Bible at 3537 N. Craycroft Rd. Tucson, AZ 85718.""")),
+                        from the Bible at:""")),
+                        pc.unordered_list(
+                            pc.list_item(address_link),
+                        ),
                         pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather in groups 
                         to pray for the Lord’s interests on the earth.""")),
                         pc.list_item(pc.text("""Most other evenings we gather in various homes 
@@ -181,7 +184,8 @@ def contact():
                         pc.list_item(pc.link(pc.text("info@churchintucson.org"), href="mailto: info@churchintucson.org", \
                             color="rgb(107,99,246)")),
                         pc.list_item(pc.link(pc.text("520-548-7514"), href="tel: 5205487514", color="rgb(107,99,246)")),
-                        pc.list_item(pc.text("Our mailing address is 6091 E Grant Rd, Tucson, AZ 85712")),
+                        pc.list_item(pc.text(f"Our mailing address is 6091 E Grant Rd, Tucson, AZ 85712")
+                        ),
                     ),
                     width="60%",
                 ),
@@ -198,7 +202,11 @@ def contact():
                     pc.unordered_list(
                         pc.list_item(pc.text("""Every Sunday at 10 AM we gather for 
                         the Lord's Table and mutual fellowship 
-                        from the Bible at 3537 N. Craycroft Rd. Tucson, AZ 85718.""")),
+                        from the Bible at:""")),
+                       pc.list_item(address_link),
+                        pc.unordered_list(
+                            pc.list_item(address_link),
+                        ),
                         pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather in groups 
                         to pray for the Lord’s interests on the earth.""")),
                         pc.list_item(pc.text("""Most other evenings we gather in various homes 

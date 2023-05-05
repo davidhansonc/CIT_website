@@ -82,7 +82,10 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`
 <Box sx={{"width": "60%"}}><Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`Meeting Information`}</Heading>
 <UnorderedList sx={{"paddingBottom": "10px"}}><ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Every Sunday at 10 AM we gather for 
                         the Lord's Table and mutual fellowship 
-                        from the Bible at 3537 N. Craycroft Rd. Tucson, AZ 85718.`}</Text></ListItem>
+                        from the Bible at:`}</Text></ListItem>
+<UnorderedList><ListItem><NextLink href="https://www.google.com/maps/search/?api=1&query=the+church+in+tucson&query_place_id=ChIJj7ioeW1u1oYREerZQuM29VU"
+passHref={true}><Link isExternal={true}
+sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`3537 N. Craycroft Rd. Tucson, AZ 85718`}</Text></Link></NextLink></ListItem></UnorderedList>
 <ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Every Tuesday at 7:30 PM we gather in groups 
                         to pray for the Lord’s interests on the earth.`}</Text></ListItem>
 <ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Most other evenings we gather in various homes 
@@ -97,7 +100,13 @@ passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily":
 <Box sx={{"width": "85%"}}><Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`Meeting Information`}</Heading>
 <UnorderedList sx={{"paddingBottom": "10px"}}><ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Every Sunday at 10 AM we gather for 
                         the Lord's Table and mutual fellowship 
-                        from the Bible at 3537 N. Craycroft Rd. Tucson, AZ 85718.`}</Text></ListItem>
+                        from the Bible at:`}</Text></ListItem>
+<ListItem><NextLink href="https://www.google.com/maps/search/?api=1&query=the+church+in+tucson&query_place_id=ChIJj7ioeW1u1oYREerZQuM29VU"
+passHref={true}><Link isExternal={true}
+sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`3537 N. Craycroft Rd. Tucson, AZ 85718`}</Text></Link></NextLink></ListItem>
+<UnorderedList><ListItem><NextLink href="https://www.google.com/maps/search/?api=1&query=the+church+in+tucson&query_place_id=ChIJj7ioeW1u1oYREerZQuM29VU"
+passHref={true}><Link isExternal={true}
+sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`3537 N. Craycroft Rd. Tucson, AZ 85718`}</Text></Link></NextLink></ListItem></UnorderedList>
 <ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Every Tuesday at 7:30 PM we gather in groups 
                         to pray for the Lord’s interests on the earth.`}</Text></ListItem>
 <ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Most other evenings we gather in various homes 

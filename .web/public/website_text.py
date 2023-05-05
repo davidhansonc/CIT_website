@@ -2,6 +2,10 @@ import pynecone as pc
 from CIT import styles
 
 
+address = "https://www.google.com/maps/search/?api=1&query=the+church+in+tucson&query_place_id=ChIJj7ioeW1u1oYREerZQuM29VU"
+
+address_link = pc.link(pc.text("3537 N. Craycroft Rd. Tucson, AZ 85718"), href=address, color="rgb(107,99,246)", is_external=True)
+
 intro_paragraph = """The church in Tucson isn’t our name – it’s our description. 
 As such, it’s an inclusive title, not an exclusive one. 
 We gather together simply as believers of the Lord in the city of Tucson, and we receive 
