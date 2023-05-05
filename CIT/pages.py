@@ -295,35 +295,55 @@ def resources():
     )
 
 
-"""
-def testimonies():
-    return pc.vstack(
-        header,
-        pc.heading("Testimonies", padding_top="90px", padding_bottom="40px"),
-        footer,
-
-    )
-"""
-
-
 def give():
     return pc.vstack(
         header,
-        pc.heading("Give", padding_top="90px", padding_bottom="40px"),
-        pc.heading("Local Needs", font_size=styles.H3_FONT_SIZE),
-        pc.unordered_list(
-            pc.list_item(pc.text('''Please send any cash or checks to our mailing address: 
-            6091 E Grant Rd Tucson, AZ 85712. Checks should be made out to "The Church in Tucson".''')),
-            pc.list_item(pc.text("There is also a donation box in our meeting hall.")),
-            padding_bottom="20px",
-            width="40%",
+        pc.desktop_only(
+            pc.vstack(
+                pc.heading("Give", padding_top="90px", padding_bottom="40px"),
+                pc.box(
+                    pc.heading("Local Needs", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(pc.text('''Please send any cash or checks to our mailing address: 
+                        6091 E Grant Rd Tucson, AZ 85712. Checks should be made out to "The Church in Tucson".''')),
+                        pc.list_item(pc.text("There is also a donation box in our meeting hall.")),
+                        padding_bottom="20px",
+                    ),
+                    pc.heading("The Work of the Ministry", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(pc.link(pc.text("Living Stream Ministry"), href="https://www.lsm.org/donations/index.php", \
+                            color="rgb(107,99,246)", is_external=True)),
+                        pc.list_item(pc.link(pc.text("The Lord's Move to Europe"), href="https://www.lordsmove.org/", \
+                            color="rgb(107,99,246)", is_external=True)),
+                    ),
+                    width="60%",
+                ),
+            ),
         ),
-        pc.heading("The Work of the Ministry", font_size=styles.H3_FONT_SIZE),
-        pc.unordered_list(
-            pc.list_item(pc.link(pc.text("Living Stream Ministry"), href="https://www.lsm.org/donations/index.php", \
-                color="rgb(107,99,246)", is_external=True)),
-            pc.list_item(pc.link(pc.text("The Lord's Move to Europe"), href="https://www.lordsmove.org/", \
-                color="rgb(107,99,246)", is_external=True)),
+        pc.mobile_and_tablet(
+            pc.vstack(
+                pc.heading("Give", 
+                    padding_top="90px", 
+                    padding_bottom="40px",
+                ),
+                pc.box(
+                    pc.heading("Local Needs", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(pc.text('''Please send any cash or checks to our mailing address: 
+                        6091 E Grant Rd Tucson, AZ 85712. Checks should be made out to "The Church in Tucson".''')),
+                        pc.list_item(pc.text("There is also a donation box in our meeting hall.")),
+                        padding_bottom="20px",
+                    ),
+                    pc.heading("The Work of the Ministry", font_size=styles.H3_FONT_SIZE),
+                    pc.unordered_list(
+                        pc.list_item(pc.link(pc.text("Living Stream Ministry"), href="https://www.lsm.org/donations/index.php", \
+                            color="rgb(107,99,246)", is_external=True)),
+                        pc.list_item(pc.link(pc.text("The Lord's Move to Europe"), href="https://www.lordsmove.org/", \
+                            color="rgb(107,99,246)", is_external=True)),
+                    ),
+                    width="85%",
+                ),
+            ),
         ),
         footer,
     )
