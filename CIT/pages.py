@@ -204,7 +204,6 @@ def contact():
                         pc.list_item(pc.text("""Every Sunday at 10 AM we gather for 
                         the Lord's Table and mutual fellowship 
                         from the Bible at:""")),
-                       pc.list_item(address_link),
                         pc.unordered_list(
                             pc.list_item(address_link),
                             list_style_type="none",
