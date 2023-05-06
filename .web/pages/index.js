@@ -103,7 +103,7 @@ as our brothers and sisters all who believe in Jesus Christ.
 Likewise, we warmly welcome guests and visitors who are not Christians.`}</Text></Box></Box>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2000, 2003. The Church in Tucson. All Rights Reserved.`}</Box>
 <NextHead><title>{`The Church in Tucson`}</title>
-<meta content="A Pynecone app."
+<meta content="The church in Tucson warmly welcomes you."
 name="description"/>
 <meta content="favicon.ico"
 property="og:image"/></NextHead></VStack>
