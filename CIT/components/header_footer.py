@@ -69,7 +69,7 @@ header = pc.box(
 
 
 footer = pc.box(
-		"Copyright © 2000-2023. The Church in Tucson. All Rights Reserved.", 
+		"Copyright © 2000-2023. The Church in Tucson. All Rights Reserved.", #Updated copyright
 		font_size="0.5em",
 		padding="50px",
 	)
