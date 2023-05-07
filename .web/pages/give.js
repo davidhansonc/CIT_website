@@ -98,11 +98,7 @@ passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily":
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Living Stream Ministry`}</Text></Link></NextLink></ListItem>
 <ListItem><NextLink href="https://www.lordsmove.org/"
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`The Lord's Move to Europe`}</Text></Link></NextLink></ListItem></UnorderedList></Box></VStack></Box>
-<<<<<<< HEAD
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
-=======
-<Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2000-2023. The Church in Tucson. All Rights Reserved.`}</Box>
->>>>>>> 3e61169c301deecda2d2cc9483e4f3e4d2341027
 <NextHead><title>{`Give`}</title>
 <meta content="A Pynecone app."
 name="description"/>

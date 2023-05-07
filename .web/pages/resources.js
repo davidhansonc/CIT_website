@@ -100,11 +100,7 @@ sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Shepherding Words`}</Text></
 <ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.affcrit.com/"
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Affirmation & Critique`}</Text></Link></NextLink></ListItem></UnorderedList>
-<<<<<<< HEAD
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
-=======
-<Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2000-2023. The Church in Tucson. All Rights Reserved.`}</Box>
->>>>>>> 3e61169c301deecda2d2cc9483e4f3e4d2341027
 <NextHead><title>{`Resources`}</title>
 <meta content="A Pynecone app."
 name="description"/>

@@ -114,11 +114,7 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`
 <UnorderedList sx={{"paddingBottom": "15px"}}><ListItem>{`Whenever any person repents to God and believes in the Lord Jesus Christ, he is regenerated (born again) and becomes a living member of the one Body of Christ (Acts 20:21, John 3:3, Eph. 1:22-23, Rom. 12:5)`}</ListItem></UnorderedList>
 <Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`Christ's Return`}</Heading>
 <UnorderedList sx={{"paddingBottom": "15px"}}><ListItem>{`Christ is coming again to receive His believers to Himself (1 Thes. 2:19)`}</ListItem></UnorderedList></Box></VStack></Box>
-<<<<<<< HEAD
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
-=======
-<Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2000-2023. The Church in Tucson. All Rights Reserved.`}</Box>
->>>>>>> 3e61169c301deecda2d2cc9483e4f3e4d2341027
 <NextHead><title>{`Our Faith`}</title>
 <meta content="A Pynecone app."
 name="description"/>

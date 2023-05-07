@@ -181,8 +181,7 @@ def contact():
                             pc.list_item(address_link),
                             list_style_type="none",
                         ),
-                        pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather in groups 
-                        to pray for the Lord’s interests on the earth.""")),
+                        pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather to pray for the Lord’s interests on the earth.""")),
                         pc.list_item(pc.text("""Most other evenings we gather in various homes 
                         for small group Bible studies and fellowship.""")),
                         padding_bottom="10px",
@@ -214,15 +213,12 @@ def contact():
                 pc.box(
                     pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE),
                     pc.unordered_list(
-                        pc.list_item(pc.text("""Every Sunday at 10 AM we gather for 
-                        the Lord's Table and mutual fellowship 
-                        from the Bible at:""")),
+                        pc.list_item(pc.text("""Every Sunday at 10 AM we gather for the Lord's Table and mutual fellowship from the Bible at:""")),
                         pc.unordered_list(
                             pc.list_item(address_link),
                             list_style_type="none",
                         ),
-                        pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather 
-                        to pray for the Lord’s interests on the earth.""")),
+                        pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather to pray for the Lord’s interests on the earth.""")),
                         pc.list_item(pc.text("""Most other evenings we gather in various homes 
                         for small group Bible studies and fellowship.""")),
                         padding_bottom="10px",

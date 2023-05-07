@@ -101,11 +101,7 @@ As such, it’s an inclusive title, not an exclusive one.
 We gather together simply as believers of the Lord in the city of Tucson, and we receive 
 as our brothers and sisters all who believe in Jesus Christ. 
 Likewise, we warmly welcome guests and visitors who are not Christians.`}</Text></Box></Box>
-<<<<<<< HEAD
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
-=======
-<Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2000-2023. The Church in Tucson. All Rights Reserved.`}</Box>
->>>>>>> 3e61169c301deecda2d2cc9483e4f3e4d2341027
 <NextHead><title>{`The Church in Tucson`}</title>
 <meta content="A local church, the church in Tucson warmly welcomes you."
 name="description"/>
