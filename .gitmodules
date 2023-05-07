@@ -1,0 +1,3 @@
+[submodule "church_in_tucson_email"]
+	path = church_in_tucson_email
+	url = https://github.com/davidhansonc/church_in_tucson_email.git

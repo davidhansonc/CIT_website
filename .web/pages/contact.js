@@ -112,7 +112,7 @@ sx={{"width": "85%", "paddingBottom": "15px"}}/>
 <UnorderedList sx={{"listStyleType": "none"}}><ListItem><NextLink href="https://www.google.com/maps/search/?api=1&query=the+church+in+tucson&query_place_id=ChIJj7ioeW1u1oYREerZQuM29VU"
 passHref={true}><Link isExternal={true}
 sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`3537 N. Craycroft Rd. Tucson, AZ 85718`}</Text></Link></NextLink></ListItem></UnorderedList>
-<ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Every Tuesday at 7:30 PM we gather in groups 
+<ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Every Tuesday at 7:30 PM we gather 
                         to pray for the Lord’s interests on the earth.`}</Text></ListItem>
 <ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Most other evenings we gather in various homes 
                         for small group Bible studies and fellowship.`}</Text></ListItem></UnorderedList>
@@ -122,7 +122,7 @@ passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily":
 <ListItem><NextLink href="tel: 5205487514"
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`520-548-7514`}</Text></Link></NextLink></ListItem>
 <ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Our mailing address is 6091 E Grant Rd, Tucson, AZ 85712`}</Text></ListItem></UnorderedList></Box></VStack></Box>
-<Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2000, 2003. The Church in Tucson. All Rights Reserved.`}</Box>
+<Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
 <NextHead><title>{`Contact Us`}</title>
 <meta content="A Pynecone app."
 name="description"/>

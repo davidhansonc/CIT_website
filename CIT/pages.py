@@ -221,7 +221,7 @@ def contact():
                             pc.list_item(address_link),
                             list_style_type="none",
                         ),
-                        pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather in groups 
+                        pc.list_item(pc.text("""Every Tuesday at 7:30 PM we gather 
                         to pray for the Lord’s interests on the earth.""")),
                         pc.list_item(pc.text("""Most other evenings we gather in various homes 
                         for small group Bible studies and fellowship.""")),
