@@ -174,7 +174,7 @@ def contact():
                 pc.box(
                     pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE),
                     pc.unordered_list(
-                        pc.list_item(pc.text("""Every Sunday at 10 AM we gather for 
+                        pc.list_item(pc.text("""Every Sunday at 10:00 AM we gather for 
                         the Lord's Table and mutual fellowship 
                         from the Bible at:""")),
                         pc.unordered_list(
@@ -213,7 +213,7 @@ def contact():
                 pc.box(
                     pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE),
                     pc.unordered_list(
-                        pc.list_item(pc.text("""Every Sunday at 10 AM we gather for the Lord's Table and mutual fellowship from the Bible at:""")),
+                        pc.list_item(pc.text("""Every Sunday at 10:00 AM we gather for the Lord's Table and mutual fellowship from the Bible at:""")),
                         pc.unordered_list(
                             pc.list_item(address_link),
                             list_style_type="none",
