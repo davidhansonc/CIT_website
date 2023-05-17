@@ -2,7 +2,7 @@ import {useEffect, useRef, useState} from "react"
 import {useRouter} from "next/router"
 import {E, connect, updateState, uploadFiles} from "/utils/state"
 import "focus-visible/dist/focus-visible"
-import {Box, HStack, Heading, Link, ListItem, Menu, MenuButton, MenuDivider, MenuItem, MenuList, Spacer, Text, UnorderedList, VStack, useColorMode} from "@chakra-ui/react"
+import {Box, HStack, Heading, Link, ListItem, Menu, MenuButton, MenuDivider, MenuItem, MenuList, Spacer, Text, UnorderedList, VStack, Wrap, WrapItem, useColorMode} from "@chakra-ui/react"
 import NextLink from "next/link"
 import NextHead from "next/head"
 
@@ -79,6 +79,9 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`}</Text></Link></NextLink></MenuItem></MenuList></Menu></Box></HStack></Box>
 <Heading sx={{"paddingTop": "90px", "paddingBottom": "40px", "fontWeight": "500"}}>{`Resources`}</Heading>
+<Wrap justify="center"
+spacing="5em"
+sx={{"width": "70%"}}><WrapItem><Box><Heading sx={{"fontSize": "1.35em", "paddingBottom": "10px", "fontWeight": "500"}}>{`Ministry`}</Heading>
 <UnorderedList><ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.lsm.org"
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Living Stream Ministry`}</Text></Link></NextLink></ListItem>
@@ -99,7 +102,18 @@ passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Shepherding Words`}</Text></Link></NextLink></ListItem>
 <ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.affcrit.com/"
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
-sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Affirmation & Critique`}</Text></Link></NextLink></ListItem></UnorderedList>
+sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Affirmation & Critique`}</Text></Link></NextLink></ListItem></UnorderedList></Box></WrapItem>
+<WrapItem><Box><Heading sx={{"fontSize": "1.35em", "paddingBottom": "10px", "fontWeight": "500"}}>{`Neighboring Churches`}</Heading>
+<UnorderedList><ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.churchinphoenix.org/"
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
+sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`The Church in Phoenix`}</Text></Link></NextLink></ListItem>
+<ListItem sx={{"paddingBottom": "15px"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`The Church in Tempe`}</Text></ListItem>
+<ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://churchinalbuquerque.org/"
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
+sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`The Church in Albuquerque`}</Text></Link></NextLink></ListItem>
+<ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://thechurchinlasvegas.org/"
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
+sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`The Church in Las Vegas`}</Text></Link></NextLink></ListItem></UnorderedList></Box></WrapItem></Wrap>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
 <NextHead><title>{`Resources`}</title>
 <meta content="A Pynecone app."

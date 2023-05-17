@@ -172,7 +172,7 @@ def contact():
                     padding_bottom="15px",
                 ),
                 pc.box(
-                    pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE),
+                    pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE, padding_bottom="10px"),
                     pc.unordered_list(
                         pc.list_item(pc.text("""Every Sunday at 10:00 AM we gather for 
                         the Lord's Table and mutual fellowship 
@@ -186,7 +186,7 @@ def contact():
                         for small group Bible studies and fellowship.""")),
                         padding_bottom="10px",
                     ),
-                    pc.heading("Contact Us", font_size=styles.H3_FONT_SIZE),
+                    pc.heading("Contact Us", font_size=styles.H3_FONT_SIZE, padding_bottom="10px"),
                     pc.unordered_list(
                         pc.list_item(pc.link(pc.text("info@churchintucson.org"), href="mailto: info@churchintucson.org", \
                             color="rgb(107,99,246)")),
@@ -211,7 +211,7 @@ def contact():
                     padding_bottom="15px",
                 ),
                 pc.box(
-                    pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE),
+                    pc.heading("Meeting Information", font_size=styles.H3_FONT_SIZE, padding_bottom="10px"),
                     pc.unordered_list(
                         pc.list_item(pc.text("""Every Sunday at 10:00 AM we gather for the Lord's Table and mutual fellowship from the Bible at:""")),
                         pc.unordered_list(
@@ -223,7 +223,7 @@ def contact():
                         for small group Bible studies and fellowship.""")),
                         padding_bottom="10px",
                     ),
-                    pc.heading("Contact Us", font_size=styles.H3_FONT_SIZE),
+                    pc.heading("Contact Us", font_size=styles.H3_FONT_SIZE, padding_bottom="10px"),
                     pc.unordered_list(
                         pc.list_item(pc.link(pc.text("info@churchintucson.org"), href="mailto: info@churchintucson.org", \
                             color="rgb(107,99,246)")),
@@ -243,73 +243,24 @@ def resources():
     return pc.vstack(
         header,
         pc.heading("Resources", padding_top="90px", padding_bottom="40px"),
-        pc.unordered_list(
-            pc.list_item(
-                pc.link(
-                    pc.text("Living Stream Ministry", as_="b"),
-                    href="https://www.lsm.org",
-                    color="rgb(107,99,246)",
-                    # is_external=True,
+        pc.wrap(
+            pc.wrap_item(
+                pc.box(
+                    pc.heading("Ministry", font_size=styles.H3_FONT_SIZE, padding_bottom="10px"),
+                    resource_links,
                 ),
-                padding_bottom="15px",
             ),
-            pc.list_item(
-                pc.link(
-                    pc.text("LSM Online Publications", as_="b"),
-                    href="https://www.ministrybooks.org/",
-                    color="rgb(107,99,246)",
-                    # is_external=True,
+            pc.wrap_item(
+                pc.box(
+                    pc.heading("Neighboring Churches", font_size=styles.H3_FONT_SIZE, padding_bottom="10px"),
+                    churches_links,
                 ),
-                padding_bottom="15px",
             ),
-            pc.list_item(
-                pc.link(
-                    pc.text("LSM Webcast", as_="b"),
-                    href="https://www.lsmwebcast.com/",
-                    color="rgb(107,99,246)",
-                    # is_external=True,
-                ),
-                padding_bottom="15px",
-            ),
-            pc.list_item(
-                pc.link(
-                    pc.text("LSM Bookstore", as_="b"),
-                    href="https://www.livingstream.com/en/",
-                    color="rgb(107,99,246)",
-                    # is_external=True,
-                ),
-                padding_bottom="15px",
-            ),
-            pc.list_item(
-                pc.link(
-                    pc.text("Hymnal.net", as_="b"),
-                    href="https://www.hymnal.net/en/home",
-                    color="rgb(107,99,246)",
-                    # is_external=True,
-                ),
-                padding_bottom="15px",
-            ),
-            pc.list_item(
-                pc.link(
-                    pc.text("Shepherding Words", as_="b"),
-                    href="https://shepherdingwords.com/",
-                    color="rgb(107,99,246)",
-                    # is_external=True,
-                ),
-                padding_bottom="15px",
-            ),
-            pc.list_item(
-                pc.link(
-                    pc.text("Affirmation & Critique", as_="b"),
-                    href="https://www.affcrit.com/",
-                    color="rgb(107,99,246)",
-                    # is_external=True,
-                ),
-                padding_bottom="15px",
-            ),
+            width="70%",
+            spacing="5em",
+            justify="center",
         ),
         footer,
-
     )
 
 
@@ -320,14 +271,14 @@ def give():
             pc.vstack(
                 pc.heading("Give", padding_top="90px", padding_bottom="40px"),
                 pc.box(
-                    pc.heading("Local Needs", font_size=styles.H3_FONT_SIZE),
+                    pc.heading("Local Needs", font_size=styles.H3_FONT_SIZE, padding_bottom="10px"),
                     pc.unordered_list(
                         pc.list_item(pc.text('''Please send any cash or checks to our mailing address: 
                         6091 E Grant Rd Tucson, AZ 85712. Checks should be made out to "The Church in Tucson".''')),
                         pc.list_item(pc.text("There is also a donation box in our meeting hall.")),
                         padding_bottom="20px",
                     ),
-                    pc.heading("The Work of the Ministry", font_size=styles.H3_FONT_SIZE),
+                    pc.heading("The Work of the Ministry", font_size=styles.H3_FONT_SIZE, padding_bottom="10px"),
                     pc.unordered_list(
                         pc.list_item(pc.link(pc.text("Living Stream Ministry"), href="https://www.lsm.org/donations/index.php", \
                             color="rgb(107,99,246)")),
@@ -345,14 +296,14 @@ def give():
                     padding_bottom="40px",
                 ),
                 pc.box(
-                    pc.heading("Local Needs", font_size=styles.H3_FONT_SIZE),
+                    pc.heading("Local Needs", font_size=styles.H3_FONT_SIZE, padding_bottom="10px"),
                     pc.unordered_list(
                         pc.list_item(pc.text('''Please send any cash or checks to our mailing address: 
                         6091 E Grant Rd Tucson, AZ 85712. Checks should be made out to "The Church in Tucson".''')),
                         pc.list_item(pc.text("There is also a donation box in our meeting hall.")),
                         padding_bottom="20px",
                     ),
-                    pc.heading("The Work of the Ministry", font_size=styles.H3_FONT_SIZE),
+                    pc.heading("The Work of the Ministry", font_size=styles.H3_FONT_SIZE, padding_bottom="10px"),
                     pc.unordered_list(
                         pc.list_item(pc.link(pc.text("Living Stream Ministry"), href="https://www.lsm.org/donations/index.php", \
                             color="rgb(107,99,246)")),

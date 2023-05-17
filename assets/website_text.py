@@ -89,3 +89,105 @@ faith = pc.box(
         ),
         width="100%",
     )
+
+
+resource_links = pc.unordered_list(
+            pc.list_item(
+                pc.link(
+                    pc.text("Living Stream Ministry", as_="b"),
+                    href="https://www.lsm.org",
+                    color="rgb(107,99,246)",
+                    # is_external=True,
+                ),
+                padding_bottom="15px",
+            ),
+            pc.list_item(
+                pc.link(
+                    pc.text("LSM Online Publications", as_="b"),
+                    href="https://www.ministrybooks.org/",
+                    color="rgb(107,99,246)",
+                    # is_external=True,
+                ),
+                padding_bottom="15px",
+            ),
+            pc.list_item(
+                pc.link(
+                    pc.text("LSM Webcast", as_="b"),
+                    href="https://www.lsmwebcast.com/",
+                    color="rgb(107,99,246)",
+                    # is_external=True,
+                ),
+                padding_bottom="15px",
+            ),
+            pc.list_item(
+                pc.link(
+                    pc.text("LSM Bookstore", as_="b"),
+                    href="https://www.livingstream.com/en/",
+                    color="rgb(107,99,246)",
+                    # is_external=True,
+                ),
+                padding_bottom="15px",
+            ),
+            pc.list_item(
+                pc.link(
+                    pc.text("Hymnal.net", as_="b"),
+                    href="https://www.hymnal.net/en/home",
+                    color="rgb(107,99,246)",
+                    # is_external=True,
+                ),
+                padding_bottom="15px",
+            ),
+            pc.list_item(
+                pc.link(
+                    pc.text("Shepherding Words", as_="b"),
+                    href="https://shepherdingwords.com/",
+                    color="rgb(107,99,246)",
+                    # is_external=True,
+                ),
+                padding_bottom="15px",
+            ),
+            pc.list_item(
+                pc.link(
+                    pc.text("Affirmation & Critique", as_="b"),
+                    href="https://www.affcrit.com/",
+                    color="rgb(107,99,246)",
+                    # is_external=True,
+                ),
+                padding_bottom="15px",
+            ),
+        )
+
+
+churches_links = pc.unordered_list(
+            pc.list_item(
+                pc.link(
+                    pc.text("The Church in Phoenix", as_="b"),
+                    href="https://www.churchinphoenix.org/",
+                    color="rgb(107,99,246)",
+                    # is_external=True,
+                ),
+                padding_bottom="15px",
+            ),
+            pc.list_item(
+                pc.text("The Church in Tempe"),
+                padding_bottom="15px",
+            ),
+            pc.list_item(
+                pc.link(
+                    pc.text("The Church in Albuquerque", as_="b"),
+                    href="https://churchinalbuquerque.org/",
+                    color="rgb(107,99,246)",
+                    # is_external=True,
+                ),
+                padding_bottom="15px",
+            ),
+            pc.list_item(
+                pc.link(
+                    pc.text("The Church in Las Vegas", as_="b"),
+                    href="https://thechurchinlasvegas.org/",
+                    color="rgb(107,99,246)",
+                    # is_external=True,
+                ),
+                padding_bottom="15px",
+            ),
+        )
