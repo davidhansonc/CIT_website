@@ -80,7 +80,8 @@ passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`}</Text></Link></NextLink></MenuItem></MenuList></Menu></Box></HStack></Box>
 <Heading sx={{"paddingTop": "90px", "paddingBottom": "40px", "fontWeight": "500"}}>{`Resources`}</Heading>
 <Wrap justify="center"
-spacing="5em"
+spacingX="5em"
+spacingY="2em"
 sx={{"width": "70%"}}><WrapItem><Box><Heading sx={{"fontSize": "1.35em", "paddingBottom": "10px", "fontWeight": "500"}}>{`Ministry`}</Heading>
 <UnorderedList><ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.lsm.org"
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
