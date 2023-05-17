@@ -107,14 +107,14 @@ sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Affirmation & Critique`}</Te
 <WrapItem><Box><Heading sx={{"fontSize": "1.35em", "paddingBottom": "10px", "fontWeight": "500"}}>{`Neighboring Churches`}</Heading>
 <UnorderedList><ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.churchinphoenix.org/"
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
-sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`The Church in Phoenix`}</Text></Link></NextLink></ListItem>
-<ListItem sx={{"paddingBottom": "15px"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`The Church in Tempe`}</Text></ListItem>
+sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Phoenix, AZ`}</Text></Link></NextLink></ListItem>
+<ListItem sx={{"paddingBottom": "15px"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Tempe, AZ`}</Text></ListItem>
 <ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://churchinalbuquerque.org/"
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
-sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`The Church in Albuquerque`}</Text></Link></NextLink></ListItem>
+sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Albuquerque, NM`}</Text></Link></NextLink></ListItem>
 <ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://thechurchinlasvegas.org/"
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
-sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`The Church in Las Vegas`}</Text></Link></NextLink></ListItem></UnorderedList></Box></WrapItem></Wrap>
+sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Las Vegas, NV`}</Text></Link></NextLink></ListItem></UnorderedList></Box></WrapItem></Wrap>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
 <NextHead><title>{`Resources`}</title>
 <meta content="A Pynecone app."

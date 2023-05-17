@@ -161,7 +161,7 @@ resource_links = pc.unordered_list(
 churches_links = pc.unordered_list(
             pc.list_item(
                 pc.link(
-                    pc.text("The Church in Phoenix", as_="b"),
+                    pc.text("Phoenix, AZ", as_="b"),
                     href="https://www.churchinphoenix.org/",
                     color="rgb(107,99,246)",
                     # is_external=True,
@@ -169,12 +169,12 @@ churches_links = pc.unordered_list(
                 padding_bottom="15px",
             ),
             pc.list_item(
-                pc.text("The Church in Tempe"),
+                pc.text("Tempe, AZ"),
                 padding_bottom="15px",
             ),
             pc.list_item(
                 pc.link(
-                    pc.text("The Church in Albuquerque", as_="b"),
+                    pc.text("Albuquerque, NM", as_="b"),
                     href="https://churchinalbuquerque.org/",
                     color="rgb(107,99,246)",
                     # is_external=True,
@@ -183,7 +183,7 @@ churches_links = pc.unordered_list(
             ),
             pc.list_item(
                 pc.link(
-                    pc.text("The Church in Las Vegas", as_="b"),
+                    pc.text("Las Vegas, NV", as_="b"),
                     href="https://thechurchinlasvegas.org/",
                     color="rgb(107,99,246)",
                     # is_external=True,
