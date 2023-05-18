@@ -265,6 +265,13 @@ def resources():
     )
 
 
+def calendar():
+    return pc.vstack(
+        header,
+        footer,
+    )
+
+
 def give():
     return pc.vstack(
         header,
