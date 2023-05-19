@@ -25,7 +25,7 @@ app.add_page(
 app.add_page(
     faith, 
     route="/faith", 
-    title="The church in Tucson | Beliefs", 
+    title="The church in Tucson | Faith", 
     description="We hold the faith which is common to all the believers (Titus 1:4, Jude 3)."
 )
 app.add_page(

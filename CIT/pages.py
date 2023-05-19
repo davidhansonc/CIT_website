@@ -55,7 +55,7 @@ def faith():
         header,
         pc.desktop_only(
             pc.vstack(
-                pc.heading("Beliefs", padding_top="90px", padding_bottom="40px"),
+                pc.heading("Our Faith", padding_top="90px", padding_bottom="40px"),
                 pc.box(
                     pc.heading(intro, padding_bottom="15px", font_size=styles.H4_FONT_SIZE),
                     pc.heading("The Bible", font_size=styles.H3_FONT_SIZE),
