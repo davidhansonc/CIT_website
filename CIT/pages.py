@@ -261,6 +261,7 @@ def resources():
             spacing_y="2em",
             justify="center",
         ),
+        pc.link(pc.text("Church Calendar", as_="u"), href="/resources/calendar", color="rgb(107,99,246)"),
         footer,
     )
 
@@ -272,7 +273,7 @@ def calendar():
         pc.tablet_and_desktop(
             pc.box(
                 element="iframe",
-                src="https://calendar.google.com/calendar/embed?src=719919b40ab0f748a2249fb5126b156de5f9e3507a86f38b93cafa37c7d27079%40group.calendar.google.com&ctz=America%2FPhoenix",
+                src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FPhoenix&showTitle=0&src=NzE5OTE5YjQwYWIwZjc0OGEyMjQ5ZmI1MTI2YjE1NmRlNWY5ZTM1MDdhODZmMzhiOTNjYWZhMzdjN2QyNzA3OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB",
                 # style="border: 0",
                 width="800px",
                 height="600px",
@@ -283,10 +284,10 @@ def calendar():
         pc.mobile_only(
             pc.box(
                 element="iframe",
-                src="https://calendar.google.com/calendar/embed?src=719919b40ab0f748a2249fb5126b156de5f9e3507a86f38b93cafa37c7d27079%40group.calendar.google.com&ctz=America%2FPhoenix",
+                src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23ffffff&ctz=America%2FPhoenix&mode=AGENDA&showTitle=0&src=NzE5OTE5YjQwYWIwZjc0OGEyMjQ5ZmI1MTI2YjE1NmRlNWY5ZTM1MDdhODZmMzhiOTNjYWZhMzdjN2QyNzA3OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB",
                 # style="border: 0",
-                width="800px",
-                height="600px",
+                width="100%",
+                height="400px",
                 frameborder="0",
                 scrolling="no",
             ),

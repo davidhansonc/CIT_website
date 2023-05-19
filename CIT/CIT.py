@@ -43,7 +43,7 @@ app.add_page(
 # app.add_page(media, route="/media")
 app.add_page(
     calendar, 
-    route="/calendar", 
+    route="/resources/calendar", 
     title="The church in Tucson | Calendar"
 )
 
