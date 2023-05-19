@@ -268,6 +268,29 @@ def resources():
 def calendar():
     return pc.vstack(
         header,
+        pc.heading("Calendar", padding_top="90px", padding_bottom="20px"),
+        pc.tablet_and_desktop(
+            pc.box(
+                element="iframe",
+                src="https://calendar.google.com/calendar/embed?src=719919b40ab0f748a2249fb5126b156de5f9e3507a86f38b93cafa37c7d27079%40group.calendar.google.com&ctz=America%2FPhoenix",
+                # style="border: 0",
+                width="800px",
+                height="600px",
+                frameborder="0",
+                scrolling="no",
+            ),
+        ),
+        pc.mobile_only(
+            pc.box(
+                element="iframe",
+                src="https://calendar.google.com/calendar/embed?src=719919b40ab0f748a2249fb5126b156de5f9e3507a86f38b93cafa37c7d27079%40group.calendar.google.com&ctz=America%2FPhoenix",
+                # style="border: 0",
+                width="800px",
+                height="600px",
+                frameborder="0",
+                scrolling="no",
+            ),
+        ),
         footer,
     )
 

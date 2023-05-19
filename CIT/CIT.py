@@ -41,7 +41,12 @@ app.add_page(
     description="We warmly welcome you. Come meet with us, or reach out with any questions."
 )
 # app.add_page(media, route="/media")
-# app.add_page(give, route="/calendar", title="Calendar")
+app.add_page(
+    calendar, 
+    route="/calendar", 
+    title="The church in Tucson | Calendar"
+)
+
 app.add_page(
     give, 
     route="/give", 
