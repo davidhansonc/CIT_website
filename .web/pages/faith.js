@@ -78,7 +78,7 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</
 <MenuItem><NextLink href="/contact"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`}</Text></Link></NextLink></MenuItem></MenuList></Menu></Box></HStack></Box>
-<Box sx={{"display": ["none", "none", "none", "block"]}}><VStack><Heading sx={{"paddingTop": "90px", "paddingBottom": "40px", "fontWeight": "500"}}>{`Our Faith`}</Heading>
+<Box sx={{"display": ["none", "none", "none", "block"]}}><VStack><Heading sx={{"paddingTop": "90px", "paddingBottom": "40px", "fontWeight": "500"}}>{`Beliefs`}</Heading>
 <Box sx={{"width": "55%"}}><Heading sx={{"paddingBottom": "15px", "fontSize": "1.1em", "fontWeight": "500"}}>{`We hold the faith which is common to all the believers (Titus 1:4, Jude 3):`}</Heading>
 <Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`The Bible`}</Heading>
 <UnorderedList sx={{"paddingBottom": "15px"}}><ListItem>{`The Bible is the complete divine revelation inspired word by word by God through the Holy Spirit (2 Pet. 1:21, 2 Tim. 3:16)`}</ListItem></UnorderedList>
@@ -115,8 +115,8 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`
 <Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`Christ's Return`}</Heading>
 <UnorderedList sx={{"paddingBottom": "15px"}}><ListItem>{`Christ is coming again to receive His believers to Himself (1 Thes. 2:19)`}</ListItem></UnorderedList></Box></VStack></Box>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
-<NextHead><title>{`Our Faith`}</title>
-<meta content="A Pynecone app."
+<NextHead><title>{`The church in Tucson | Beliefs`}</title>
+<meta content="We hold the faith which is common to all the believers (Titus 1:4, Jude 3)."
 name="description"/>
 <meta content="favicon.ico"
 property="og:image"/></NextHead></VStack>

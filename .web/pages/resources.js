@@ -116,8 +116,8 @@ sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Albuquerque, NM`}</Text></Li
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Las Vegas, NV`}</Text></Link></NextLink></ListItem></UnorderedList></Box></WrapItem></Wrap>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
-<NextHead><title>{`Resources`}</title>
-<meta content="A Pynecone app."
+<NextHead><title>{`The church in Tucson | Resources`}</title>
+<meta content="Ministry links and other helpful resources."
 name="description"/>
 <meta content="favicon.ico"
 property="og:image"/></NextHead></VStack>
