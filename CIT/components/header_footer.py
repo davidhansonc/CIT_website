@@ -50,11 +50,27 @@ header = pc.box(
 			pc.menu(
 				pc.menu_button(pc.text("Menu", color="#696969", as_="u"), padding_right="15px"),
 				pc.menu_list(
-					pc.menu_item(faith_link),
-					pc.menu_item(resources_link),
-					pc.menu_item(giving_link),
+					pc.link(
+						pc.menu_item(pc.text("Our Faith", color="#696969", as_="b")),
+						href="/faith",
+						padding_right="15px",
+					),
+					pc.link(
+						pc.menu_item(pc.text("Resources", color="#696969", as_="b")),
+						href="/resources",
+						padding_right="15px",
+					),
+					pc.link(
+						pc.menu_item(pc.text("Give", color="#696969", as_="b")),
+						href="/give",
+						padding_right="15px",
+					),
 					pc.menu_divider(),
-					pc.menu_item(contact_link),
+					pc.link(
+						pc.menu_item(pc.text("Contact Us", color="#696969", as_="b")),
+						href="/contact",
+						padding_right="15px",
+					),
 				),
 			),
 		),
@@ -66,6 +82,11 @@ header = pc.box(
 	z_index="20",
 	border_bottom="0.05em solid rgba(100, 116, 139, .2)",
 )
+faith_link = pc.link(
+				pc.text("Our Faith", color="#696969", as_="b"),
+				href="/faith",
+				padding_right="15px"
+			)
 
 
 footer = pc.box(

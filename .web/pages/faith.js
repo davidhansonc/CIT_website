@@ -65,19 +65,19 @@ passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</Text></Link></NextLink></Box>
 <Box sx={{"display": ["block", "block", "block", "none"]}}><Menu><MenuButton sx={{"paddingRight": "15px"}}><Text as="u"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Menu`}</Text></MenuButton>
-<MenuList><MenuItem><NextLink href="/faith"
-passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
-sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Our Faith`}</Text></Link></NextLink></MenuItem>
-<MenuItem><NextLink href="/resources"
-passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
-sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Resources`}</Text></Link></NextLink></MenuItem>
-<MenuItem><NextLink href="/give"
-passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
-sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</Text></Link></NextLink></MenuItem>
+<MenuList><NextLink href="/faith"
+passHref={true}><Link sx={{"paddingRight": "15px"}}><MenuItem><Text as="b"
+sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Our Faith`}</Text></MenuItem></Link></NextLink>
+<NextLink href="/resources"
+passHref={true}><Link sx={{"paddingRight": "15px"}}><MenuItem><Text as="b"
+sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Resources`}</Text></MenuItem></Link></NextLink>
+<NextLink href="/give"
+passHref={true}><Link sx={{"paddingRight": "15px"}}><MenuItem><Text as="b"
+sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</Text></MenuItem></Link></NextLink>
 <MenuDivider/>
-<MenuItem><NextLink href="/contact"
-passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
-sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`}</Text></Link></NextLink></MenuItem></MenuList></Menu></Box></HStack></Box>
+<NextLink href="/contact"
+passHref={true}><Link sx={{"paddingRight": "15px"}}><MenuItem><Text as="b"
+sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact Us`}</Text></MenuItem></Link></NextLink></MenuList></Menu></Box></HStack></Box>
 <Box sx={{"display": ["none", "none", "none", "block"]}}><VStack><Heading sx={{"paddingTop": "90px", "paddingBottom": "40px", "fontWeight": "500"}}>{`Our Faith`}</Heading>
 <Box sx={{"width": "55%"}}><Heading sx={{"paddingBottom": "15px", "fontSize": "1.1em", "fontWeight": "500"}}>{`We hold the faith which is common to all the believers (Titus 1:4, Jude 3):`}</Heading>
 <Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`The Bible`}</Heading>
