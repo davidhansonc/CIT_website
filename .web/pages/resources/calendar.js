@@ -88,7 +88,7 @@ element="iframe"
 src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23ffffff&ctz=America%2FPhoenix&mode=AGENDA&showTitle=0&src=NzE5OTE5YjQwYWIwZjc0OGEyMjQ5ZmI1MTI2YjE1NmRlNWY5ZTM1MDdhODZmMzhiOTNjYWZhMzdjN2QyNzA3OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB"
 sx={{"width": "100%", "height": "400px", "frameborder": "0", "scrolling": "no"}}/></Box>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
-<NextHead><title>{`The church in Tucson | Calendar`}</title>
+<NextHead><title>{`Calendar | The church in Tucson`}</title>
 <meta content="A Pynecone app."
 name="description"/>
 <meta content="favicon.ico"

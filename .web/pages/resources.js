@@ -119,7 +119,7 @@ sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Las Vegas, NV`}</Text></Link
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="u"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Church Calendar`}</Text></Link></NextLink>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
-<NextHead><title>{`The church in Tucson | Resources`}</title>
+<NextHead><title>{`Resources | The church in Tucson`}</title>
 <meta content="Ministry links and other helpful resources."
 name="description"/>
 <meta content="favicon.ico"

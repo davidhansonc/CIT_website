@@ -25,32 +25,32 @@ app.add_page(
 app.add_page(
     faith, 
     route="/faith", 
-    title="The church in Tucson | Faith", 
+    title="Faith | The church in Tucson", 
     description="We hold the faith which is common to all the believers (Titus 1:4, Jude 3)."
 )
 app.add_page(
     resources, 
     route="/resources", 
-    title="The church in Tucson | Resources",
+    title="Resources | The church in Tucson",
     description="Ministry links and other helpful resources."
 )
 app.add_page(
     contact, 
     route="/contact", 
-    title="The church in Tucson | Contact Us",
+    title="Contact us | The church in Tucson",
     description="We warmly welcome you. Come meet with us, or reach out with any questions."
 )
 # app.add_page(media, route="/media")
 app.add_page(
     calendar, 
     route="/resources/calendar", 
-    title="The church in Tucson | Calendar"
+    title="Calendar | The church in Tucson"
 )
 
 app.add_page(
     give, 
     route="/give", 
-    title="The church in Tucson | Give",
+    title="Give | The church in Tucson",
     description="If you feel to give to the church or the work of the ministry, here is some guidance."
 )
 

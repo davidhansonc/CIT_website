@@ -115,7 +115,7 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`
 <Heading sx={{"fontSize": "1.35em", "fontWeight": "500"}}>{`Christ's Return`}</Heading>
 <UnorderedList sx={{"paddingBottom": "15px"}}><ListItem>{`Christ is coming again to receive His believers to Himself (1 Thes. 2:19)`}</ListItem></UnorderedList></Box></VStack></Box>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
-<NextHead><title>{`The church in Tucson | Faith`}</title>
+<NextHead><title>{`Faith | The church in Tucson`}</title>
 <meta content="We hold the faith which is common to all the believers (Titus 1:4, Jude 3)."
 name="description"/>
 <meta content="favicon.ico"

@@ -119,7 +119,7 @@ passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily":
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`520-548-7514`}</Text></Link></NextLink></ListItem>
 <ListItem><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Our mailing address is 6091 E Grant Rd, Tucson, AZ 85712`}</Text></ListItem></UnorderedList></Box></VStack></Box>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
-<NextHead><title>{`The church in Tucson | Contact Us`}</title>
+<NextHead><title>{`Contact us | The church in Tucson`}</title>
 <meta content="We warmly welcome you. Come meet with us, or reach out with any questions."
 name="description"/>
 <meta content="favicon.ico"
