@@ -66,17 +66,17 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</
 <Box sx={{"display": ["block", "block", "block", "none"]}}><Menu><MenuButton sx={{"paddingRight": "15px"}}><Text as="u"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Menu`}</Text></MenuButton>
 <MenuList><NextLink href="/faith"
-passHref={true}><Link sx={{"paddingRight": "15px"}}><MenuItem><Text as="b"
+passHref={true}><Link><MenuItem><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Our Faith`}</Text></MenuItem></Link></NextLink>
 <NextLink href="/resources"
-passHref={true}><Link sx={{"paddingRight": "15px"}}><MenuItem><Text as="b"
+passHref={true}><Link><MenuItem><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Resources`}</Text></MenuItem></Link></NextLink>
 <NextLink href="/give"
-passHref={true}><Link sx={{"paddingRight": "15px"}}><MenuItem><Text as="b"
+passHref={true}><Link><MenuItem><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</Text></MenuItem></Link></NextLink>
 <MenuDivider/>
 <NextLink href="/contact"
-passHref={true}><Link sx={{"paddingRight": "15px"}}><MenuItem><Text as="b"
+passHref={true}><Link><MenuItem><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact Us`}</Text></MenuItem></Link></NextLink></MenuList></Menu></Box></HStack></Box>
 <Box sx={{"display": ["none", "none", "none", "block"]}}><Box><Image src="/AZ_desert_scape2.png"
 sx={{"width": "100%", "height": "auto"}}/></Box>
