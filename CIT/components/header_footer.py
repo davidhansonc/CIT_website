@@ -53,23 +53,19 @@ header = pc.box(
 					pc.link(
 						pc.menu_item(pc.text("Our Faith", color="#696969", as_="b")),
 						href="/faith",
-						padding_right="15px",
 					),
 					pc.link(
 						pc.menu_item(pc.text("Resources", color="#696969", as_="b")),
 						href="/resources",
-						padding_right="15px",
 					),
 					pc.link(
 						pc.menu_item(pc.text("Give", color="#696969", as_="b")),
 						href="/give",
-						padding_right="15px",
 					),
 					pc.menu_divider(),
 					pc.link(
 						pc.menu_item(pc.text("Contact Us", color="#696969", as_="b")),
 						href="/contact",
-						padding_right="15px",
 					),
 				),
 			),
