@@ -268,8 +268,8 @@ def resources():
 def announcements():
     return pc.vstack(
         header,
-        pc.heading("Announcements", padding_top="90px", padding_bottom="20px"),
         pc.tablet_and_desktop(
+            pc.heading("Calendar", padding_top="90px", padding_bottom="20px"),
             pc.box(
                 element="iframe",
                 src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FPhoenix&showTitle=0&src=NzE5OTE5YjQwYWIwZjc0OGEyMjQ5ZmI1MTI2YjE1NmRlNWY5ZTM1MDdhODZmMzhiOTNjYWZhMzdjN2QyNzA3OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB",
@@ -279,8 +279,10 @@ def announcements():
                 frameborder="0",
                 scrolling="no",
             ),
+            pc.heading("Announcements", padding_top="45px", padding_bottom="20px"),
         ),
         pc.mobile_only(
+            pc.heading("Calendar", padding_top="90px", padding_bottom="20px"),
             pc.box(
                 element="iframe",
                 src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23ffffff&ctz=America%2FPhoenix&mode=AGENDA&showTitle=0&src=NzE5OTE5YjQwYWIwZjc0OGEyMjQ5ZmI1MTI2YjE1NmRlNWY5ZTM1MDdhODZmMzhiOTNjYWZhMzdjN2QyNzA3OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB",
@@ -290,6 +292,7 @@ def announcements():
                 frameborder="0",
                 scrolling="no",
             ),
+            pc.heading("Announcements", padding_top="45px", padding_bottom="20px"),
         ),
         footer,
     )

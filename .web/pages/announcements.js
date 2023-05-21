@@ -84,15 +84,18 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</
 <NextLink href="/contact"
 passHref={true}><Link><MenuItem><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact Us`}</Text></MenuItem></Link></NextLink></MenuList></Menu></Box></HStack></Box>
-<Heading sx={{"paddingTop": "90px", "paddingBottom": "20px", "fontWeight": "500"}}>{`Announcements`}</Heading>
-<Box sx={{"display": ["none", "block", "block", "block"]}}><Box as="iframe"
+<Box sx={{"display": ["none", "block", "block", "block"]}}><Heading sx={{"paddingTop": "90px", "paddingBottom": "20px", "fontWeight": "500"}}>{`Calendar`}</Heading>
+<Box as="iframe"
 element="iframe"
 src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FPhoenix&showTitle=0&src=NzE5OTE5YjQwYWIwZjc0OGEyMjQ5ZmI1MTI2YjE1NmRlNWY5ZTM1MDdhODZmMzhiOTNjYWZhMzdjN2QyNzA3OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB"
-sx={{"width": "800px", "height": "600px", "frameborder": "0", "scrolling": "no"}}/></Box>
-<Box sx={{"display": ["block", "none", "none", "none"]}}><Box as="iframe"
+sx={{"width": "800px", "height": "600px", "frameborder": "0", "scrolling": "no"}}/>
+<Heading sx={{"paddingTop": "45px", "paddingBottom": "20px", "fontWeight": "500"}}>{`Announcements`}</Heading></Box>
+<Box sx={{"display": ["block", "none", "none", "none"]}}><Heading sx={{"paddingTop": "90px", "paddingBottom": "20px", "fontWeight": "500"}}>{`Calendar`}</Heading>
+<Box as="iframe"
 element="iframe"
 src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23ffffff&ctz=America%2FPhoenix&mode=AGENDA&showTitle=0&src=NzE5OTE5YjQwYWIwZjc0OGEyMjQ5ZmI1MTI2YjE1NmRlNWY5ZTM1MDdhODZmMzhiOTNjYWZhMzdjN2QyNzA3OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB"
-sx={{"width": "100%", "height": "400px", "frameborder": "0", "scrolling": "no"}}/></Box>
+sx={{"width": "100%", "height": "400px", "frameborder": "0", "scrolling": "no"}}/>
+<Heading sx={{"paddingTop": "45px", "paddingBottom": "20px", "fontWeight": "500"}}>{`Announcements`}</Heading></Box>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
 <NextHead><title>{`Announcements | The church in Tucson`}</title>
 <meta content="A Pynecone app."
