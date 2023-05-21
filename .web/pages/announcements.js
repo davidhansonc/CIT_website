@@ -57,6 +57,9 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Our Fait
 <NextLink href="/resources"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Resources`}</Text></Link></NextLink>
+<NextLink href="/announcements"
+passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
+sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Announcements`}</Text></Link></NextLink>
 <NextLink href="/contact"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`}</Text></Link></NextLink>
@@ -71,6 +74,9 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Our Fait
 <NextLink href="/resources"
 passHref={true}><Link><MenuItem><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Resources`}</Text></MenuItem></Link></NextLink>
+<NextLink href="/announcements"
+passHref={true}><Link><MenuItem><Text as="b"
+sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Announcements`}</Text></MenuItem></Link></NextLink>
 <NextLink href="/give"
 passHref={true}><Link><MenuItem><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</Text></MenuItem></Link></NextLink>
@@ -78,7 +84,7 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</
 <NextLink href="/contact"
 passHref={true}><Link><MenuItem><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact Us`}</Text></MenuItem></Link></NextLink></MenuList></Menu></Box></HStack></Box>
-<Heading sx={{"paddingTop": "90px", "paddingBottom": "20px", "fontWeight": "500"}}>{`Calendar`}</Heading>
+<Heading sx={{"paddingTop": "90px", "paddingBottom": "20px", "fontWeight": "500"}}>{`Announcements`}</Heading>
 <Box sx={{"display": ["none", "block", "block", "block"]}}><Box as="iframe"
 element="iframe"
 src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FPhoenix&showTitle=0&src=NzE5OTE5YjQwYWIwZjc0OGEyMjQ5ZmI1MTI2YjE1NmRlNWY5ZTM1MDdhODZmMzhiOTNjYWZhMzdjN2QyNzA3OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB"
@@ -88,7 +94,7 @@ element="iframe"
 src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23ffffff&ctz=America%2FPhoenix&mode=AGENDA&showTitle=0&src=NzE5OTE5YjQwYWIwZjc0OGEyMjQ5ZmI1MTI2YjE1NmRlNWY5ZTM1MDdhODZmMzhiOTNjYWZhMzdjN2QyNzA3OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB"
 sx={{"width": "100%", "height": "400px", "frameborder": "0", "scrolling": "no"}}/></Box>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
-<NextHead><title>{`Calendar | The church in Tucson`}</title>
+<NextHead><title>{`Announcements | The church in Tucson`}</title>
 <meta content="A Pynecone app."
 name="description"/>
 <meta content="favicon.ico"

@@ -16,6 +16,11 @@ resources_link = pc.link(
 				href="/resources",
 				padding_right="15px"
 			)
+announcements_link = pc.link(
+				pc.text("Announcements", color="#696969", as_="b"),
+				href="/announcements",
+				padding_right="15px"
+			)
 giving_link = pc.link(
 				pc.text("Give", color="#696969", as_="b"),
 				href="/give",
@@ -43,6 +48,7 @@ header = pc.box(
 		pc.desktop_only(
 			faith_link,
 			resources_link,
+			announcements_link,
 			contact_link,
 			giving_link,
 		),
@@ -57,6 +63,10 @@ header = pc.box(
 					pc.link(
 						pc.menu_item(pc.text("Resources", color="#696969", as_="b")),
 						href="/resources",
+					),
+					pc.link(
+						pc.menu_item(pc.text("Announcements", color="#696969", as_="b")),
+						href="/announcements",
 					),
 					pc.link(
 						pc.menu_item(pc.text("Give", color="#696969", as_="b")),

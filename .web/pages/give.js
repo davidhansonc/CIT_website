@@ -57,6 +57,9 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Our Fait
 <NextLink href="/resources"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Resources`}</Text></Link></NextLink>
+<NextLink href="/announcements"
+passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
+sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Announcements`}</Text></Link></NextLink>
 <NextLink href="/contact"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`}</Text></Link></NextLink>
@@ -71,6 +74,9 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Our Fait
 <NextLink href="/resources"
 passHref={true}><Link><MenuItem><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Resources`}</Text></MenuItem></Link></NextLink>
+<NextLink href="/announcements"
+passHref={true}><Link><MenuItem><Text as="b"
+sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Announcements`}</Text></MenuItem></Link></NextLink>
 <NextLink href="/give"
 passHref={true}><Link><MenuItem><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</Text></MenuItem></Link></NextLink>

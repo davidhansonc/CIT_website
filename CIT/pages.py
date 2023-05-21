@@ -261,15 +261,14 @@ def resources():
             spacing_y="2em",
             justify="center",
         ),
-        pc.link(pc.text("Church Calendar", as_="u"), href="/resources/calendar", color="rgb(107,99,246)"),
         footer,
     )
 
 
-def calendar():
+def announcements():
     return pc.vstack(
         header,
-        pc.heading("Calendar", padding_top="90px", padding_bottom="20px"),
+        pc.heading("Announcements", padding_top="90px", padding_bottom="20px"),
         pc.tablet_and_desktop(
             pc.box(
                 element="iframe",

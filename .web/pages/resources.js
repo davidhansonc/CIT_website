@@ -57,6 +57,9 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Our Fait
 <NextLink href="/resources"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Resources`}</Text></Link></NextLink>
+<NextLink href="/announcements"
+passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
+sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Announcements`}</Text></Link></NextLink>
 <NextLink href="/contact"
 passHref={true}><Link sx={{"paddingRight": "15px"}}><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Contact`}</Text></Link></NextLink>
@@ -71,6 +74,9 @@ sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Our Fait
 <NextLink href="/resources"
 passHref={true}><Link><MenuItem><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Resources`}</Text></MenuItem></Link></NextLink>
+<NextLink href="/announcements"
+passHref={true}><Link><MenuItem><Text as="b"
+sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Announcements`}</Text></MenuItem></Link></NextLink>
 <NextLink href="/give"
 passHref={true}><Link><MenuItem><Text as="b"
 sx={{"color": "#696969", "fontFamily": "Inter", "fontWeight": "200"}}>{`Give`}</Text></MenuItem></Link></NextLink>
@@ -115,9 +121,6 @@ sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Albuquerque, NM`}</Text></Li
 <ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://thechurchinlasvegas.org/"
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Las Vegas, NV`}</Text></Link></NextLink></ListItem></UnorderedList></Box></WrapItem></Wrap>
-<NextLink href="/resources/calendar"
-passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="u"
-sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Church Calendar`}</Text></Link></NextLink>
 <Box sx={{"fontSize": "0.5em", "padding": "50px"}}>{`Copyright © 2023. The Church in Tucson. All Rights Reserved.`}</Box>
 <NextHead><title>{`Resources | The church in Tucson`}</title>
 <meta content="Ministry links and other helpful resources."
