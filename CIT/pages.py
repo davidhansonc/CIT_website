@@ -279,7 +279,7 @@ def announcements():
                 frameborder="0",
                 scrolling="no",
             ),
-            pc.heading("Announcements", padding_top="45px", padding_bottom="20px"),
+            # pc.heading("Announcements", padding_top="45px", padding_bottom="20px"),
         ),
         pc.mobile_only(
             pc.heading("Calendar", padding_top="90px", padding_bottom="20px"),
@@ -292,7 +292,7 @@ def announcements():
                 frameborder="0",
                 scrolling="no",
             ),
-            pc.heading("Announcements", padding_top="45px", padding_bottom="20px"),
+            # pc.heading("Announcements", padding_top="45px", padding_bottom="20px"),
         ),
         footer,
     )
