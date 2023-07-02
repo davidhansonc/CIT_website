@@ -44,7 +44,7 @@ app.add_page(
 app.add_page(
     announcements, 
     route="/calendar", 
-    title="Announcements | The church in Tucson"
+    title="Calendar | The church in Tucson"
 )
 
 app.add_page(
