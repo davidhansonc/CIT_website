@@ -17,8 +17,8 @@ resources_link = pc.link(
 				padding_right="15px"
 			)
 announcements_link = pc.link(
-				pc.text("Announcements", color="#696969", as_="b"),
-				href="/announcements",
+				pc.text("Calendar", color="#696969", as_="b"),
+				href="/calendar",
 				padding_right="15px"
 			)
 giving_link = pc.link(
