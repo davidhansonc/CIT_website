@@ -1,2 +1,6 @@
 pynecone.db
 .vercel
+
+__pycache__/
+.web
+*.py[cod]
