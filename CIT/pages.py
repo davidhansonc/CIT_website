@@ -279,8 +279,12 @@ def calendar():
                 frameborder="0",
                 scrolling="no",
             ),
+<<<<<<< HEAD
             pc.heading("Announcements", padding_top="45px", padding_bottom="20px"),
             announcements,
+=======
+            # pc.heading("Announcements", padding_top="45px", padding_bottom="20px"),
+>>>>>>> 05daea65a89047ebf6affc7cd96191f88dfc0af2
         ),
         pc.mobile_only(
             pc.heading("Calendar", padding_top="90px", padding_bottom="20px"),
@@ -293,8 +297,12 @@ def calendar():
                 frameborder="0",
                 scrolling="no",
             ),
+<<<<<<< HEAD
             pc.heading("Announcements", padding_top="45px", padding_bottom="20px"),
             announcements,
+=======
+            # pc.heading("Announcements", padding_top="45px", padding_bottom="20px"),
+>>>>>>> 05daea65a89047ebf6affc7cd96191f88dfc0af2
         ),
         footer,
     )
