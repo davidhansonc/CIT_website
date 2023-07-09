@@ -2,6 +2,14 @@ import pynecone as pc
 from CIT import styles
 
 
+announcements = pc.unordered_list(
+                pc.list_item(
+                    pc.text("Pray for the Lord's blessing in the Chicago conference this weekend."),
+                    padding_bottom="15px",
+                ),
+            ),
+
+
 address = "https://www.google.com/maps/search/?api=1&query=the+church+in+tucson&query_place_id=ChIJj7ioeW1u1oYREerZQuM29VU"
 address_link = pc.link(pc.text("3537 N. Craycroft Rd. Tucson, AZ 85718"), href=address, color="rgb(107,99,246)", is_external=True)
 

@@ -265,7 +265,7 @@ def resources():
     )
 
 
-def announcements():
+def calendar():
     return pc.vstack(
         header,
         pc.tablet_and_desktop(
@@ -280,6 +280,7 @@ def announcements():
                 scrolling="no",
             ),
             pc.heading("Announcements", padding_top="45px", padding_bottom="20px"),
+            announcements,
         ),
         pc.mobile_only(
             pc.heading("Calendar", padding_top="90px", padding_bottom="20px"),
@@ -293,6 +294,7 @@ def announcements():
                 scrolling="no",
             ),
             pc.heading("Announcements", padding_top="45px", padding_bottom="20px"),
+            announcements,
         ),
         footer,
     )
