@@ -65,8 +65,8 @@ header = pc.box(
 						href="/resources",
 					),
 					pc.link(
-						pc.menu_item(pc.text("Announcements", color="#696969", as_="b")),
-						href="/announcements",
+						pc.menu_item(pc.text("Calendar", color="#696969", as_="b")),
+						href="/calendar",
 					),
 					pc.link(
 						pc.menu_item(pc.text("Give", color="#696969", as_="b")),
