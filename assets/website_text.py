@@ -177,7 +177,12 @@ churches_links = pc.unordered_list(
                 padding_bottom="15px",
             ),
             pc.list_item(
-                pc.text("Tempe, AZ"),
+                pc.link(
+                    pc.text("Tempe, AZ", as_="b"),
+                    href="https://www.churchintempe.org/",
+                    color="rgb(107,99,246)",
+                    # is_external=True,
+                ),
                 padding_bottom="15px",
             ),
             pc.list_item(

@@ -114,7 +114,9 @@ sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Affirmation & Critique`}</Te
 <UnorderedList><ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.churchinphoenix.org/"
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Phoenix, AZ`}</Text></Link></NextLink></ListItem>
-<ListItem sx={{"paddingBottom": "15px"}}><Text sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Tempe, AZ`}</Text></ListItem>
+<ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://www.churchintempe.org/"
+passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
+sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Tempe, AZ`}</Text></Link></NextLink></ListItem>
 <ListItem sx={{"paddingBottom": "15px"}}><NextLink href="https://churchinalbuquerque.org/"
 passHref={true}><Link sx={{"color": "rgb(107,99,246)"}}><Text as="b"
 sx={{"fontFamily": "Inter", "fontWeight": "200"}}>{`Albuquerque, NM`}</Text></Link></NextLink></ListItem>
